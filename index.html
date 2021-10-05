@@ -14,7 +14,8 @@
     <link href="https://uscc.ua/platform/main" rel="canonical">
     <link href="static/css/lightgallery.min.css" rel="stylesheet">
     <link href="static/css//style.min.css" rel="stylesheet">
-    <link href="static/css/wic.css" rel="stylesheet"> <!-- Google Tag Manager head -->
+    <link href="static/css//custom-style.css" rel="stylesheet">
+    <link href="static/css/wic.css" rel="stylesheet"> 
 
     <link href="static/css/select2.min.css" rel="stylesheet">
 </head>
@@ -723,46 +724,39 @@
                 <div class="breadcrumbs">
                     <a href="https://uscc.ua/">Головна</a>
                     <span>/</span>
-                    <p>Каталог проектувальників металоконструкцій</p>
+                    <p>Каталог заводів металоконструкцій</p>
                 </div>
             </div>
             <div class="container-100">
                 <div class="text-information">
                     <div class="title-block">
-                        <h1>Каталог проектувальників металоконструкцій</h1>
+                        <h1>Каталог заводів металоконструкцій</h1>
                     </div>
-                </div>
-            </div>
-            <div class="container-100">
-                <div class="left txt-content">
-                    <br>
-                    <p>Створити свій профіль в каталозі проектувальників можна заповнивши
-                        <a href="https://uscc.ua/katalog-proektuvalnikiv/registration">анкету</a>
-                    </p>
                 </div>
             </div>
         </section>
         <section class="block_catalog with-aside case_catalog platform_container">
             <div class="container-100" id="platformFilters">
                 <aside class="acc" id="filters">
-                    <form method="POST" action="https://uscc.ua/katalog-proektuvalnikiv"
-                        id="platform_proekt_registration_form">
-                        <input type="hidden" id="lang" value="uk-UK">
-                        <p class="acc_title">ЮРИДИЧНИЙ СТАТУС</p>
-                        <div class="acc_body">
-                            <div class="check-box">
-                                <input type="checkbox" name="yur_status[]" id="filter_custom_11" value="2">
-                                <label for="filter_custom_11">Організація</label>
-                            </div>
-                            <div class="check-box">
-                                <input type="checkbox" name="yur_status[]" id="filter_custom_12" value="3">
-                                <label for="filter_custom_12">Фізична особа-підприємець</label>
-                            </div>
-                            <div class="check-box">
-                                <input type="checkbox" name="yur_status[]" id="filter_custom_13" value="1">
-                                <label for="filter_custom_13">Фізична особа</label>
+
+                        <div class="acc-wrapper">
+                            <p class="acc_title">ЮРИДИЧНИЙ СТАТУС</p>
+                            <div class="acc_body">
+                                <div class="check-box">
+                                    <input type="checkbox" name="yur_status[]" id="filter_custom_11" value="2">
+                                    <label for="filter_custom_11">Організація</label>
+                                </div>
+                                <div class="check-box">
+                                    <input type="checkbox" name="yur_status[]" id="filter_custom_12" value="3">
+                                    <label for="filter_custom_12">Фізична особа-підприємець</label>
+                                </div>
+                                <div class="check-box">
+                                    <input type="checkbox" name="yur_status[]" id="filter_custom_13" value="1">
+                                    <label for="filter_custom_13">Фізична особа</label>
+                                </div>
                             </div>
                         </div>
+
                         <p class="acc_title">УЧАСНИК УЦСБ</p>
                         <div class="acc_body">
                             <div class="check-box">
@@ -1280,7 +1274,7 @@
                             <a href="https://uscc.ua/katalog-proektuvalnikiv" class="btn-orange">Очистити фільтри
                             </a>
                         </div>
-                    </form>
+                    
                 </aside>
                 <div class="platform_content_container" id="platform_container">
 
@@ -1290,7 +1284,7 @@
                         </div>
                         <div class="platform_item_content">
                             <div class="platform_item_content_info">
-                                <span>Проектно-вишукувальна компанія "Вартість"</span>
+                                <span>Завод "Вартість"</span>
                             </div>
                             <div class="platform_item_content_info">
                                 <span>Регіон:</span> м. Київ
@@ -1369,7 +1363,7 @@
 
         .platform_item_content_info span {
             color: #536279;
-            font-weight: 500;
+            font-weight: 600;
         }
 
         .platform_content_container {
@@ -1609,5 +1603,5 @@
     </footer>
 
 </body>
-
+<script src="static/js/main.js"></script>
 </html>
