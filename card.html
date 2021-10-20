@@ -1,1227 +1,1993 @@
 <!DOCTYPE html>
 <html lang="uk-UK">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="csrf-param" content="_csrf-frontend">
-    <meta name="csrf-token"
-        content="9WuBT6SMk3yYCqFJKDGICZoqNj1jKus2ihR__sN55ACgJeRi1fjSJNlO5iteAepItxkCcAFiuUW7fj2y7hzVVw==">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="csrf-param" content="_csrf-frontend" />
+    <meta
+      name="csrf-token"
+      content="9WuBT6SMk3yYCqFJKDGICZoqNj1jKus2ihR__sN55ACgJeRi1fjSJNlO5iteAepItxkCcAFiuUW7fj2y7hzVVw=="
+    />
     <title></title>
-    <meta property="og:image" content="https://uscc.ua/images/logo_ukr_600.png">
-    <link href="https://uscc.ua/platform/main" rel="canonical">
-    <link href="static/css/lightgallery.min.css" rel="stylesheet">
-    <link href="static/css//style.min.css" rel="stylesheet">
-    <link href="static/css/wic.css" rel="stylesheet"> 
-    <link href="static/css//custom-style.css" rel="stylesheet">
+    <meta
+      property="og:image"
+      content="https://uscc.ua/images/logo_ukr_600.png"
+    />
+    <link href="https://uscc.ua/platform/main" rel="canonical" />
+    <link href="static/css/lightgallery.min.css" rel="stylesheet" />
+    <link href="static/css//style.min.css" rel="stylesheet" />
+    <link href="static/css/wic.css" rel="stylesheet" />
+    <link href="static/css//custom-style.css" rel="stylesheet" />
 
-    <link href="static/css/select2.min.css" rel="stylesheet">
-</head>
+    <link href="static/css/select2.min.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <!-- Google Tag Manager body-->
     <script>
-        var js_lang = 'uk-UK';
+      var js_lang = "uk-UK";
     </script>
     <header class="header fix">
-        <div class="left">
-            <div class="search">
-                <form action="https://uscc.ua/search/index">
-                    <div class="btn">
-                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas"
-                            data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img"
-                            viewBox="0 0 512 512">
-                            <path fill="white"
-                                d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
-                            </path>
-                        </svg>
-                        <input class="btn" type="submit" value="">
-                    </div>
-                    <input name="q" class="input" type="text" placeholder="Пошук">
-                </form>
+      <div class="left">
+        <div class="search">
+          <form action="https://uscc.ua/search/index">
+            <div class="btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="search"
+                class="svg-inline--fa fa-search fa-w-16"
+                role="img"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="white"
+                  d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                ></path>
+              </svg>
+              <input class="btn" type="submit" value="" />
             </div>
-            <a href="https://uscc.ua/" class="logo">
-                <img src="static/img/logo_ukr.png" alt="">
-            </a>
+            <input name="q" class="input" type="text" placeholder="Пошук" />
+          </form>
         </div>
+        <a href="https://uscc.ua/" class="logo">
+          <img src="static/img/logo_ukr.png" alt="" />
+        </a>
+      </div>
 
-
-        <div class="right">
-            <div class="menu-container">
-                <ul>
-                    <li data-menu="199">
-                        <a href="https://uscc.ua/customer" class="">ЗАМОВНИКАМ</a>
-                        <ul class="sub-menu">
-                            <li><a class="" href="https://uscc.ua/katalog-proektuvalnikiv">
-                                    КАТАЛОГ ПРОЕКТУВАЛЬНИКІВ МЕТАЛОКОНСТРУКЦІЙ</a></li>
-                            <li><a class="" href="https://uscc.ua/member/category/members/steel-manufacturers">
-                                    Виробники металоконструкцій</a></li>
-                            <li><a class="" href="https://uscc.ua/member/category/members/-4">
-                                    Монтаж металоконструкцій</a></li>
-                            <li><a class="" href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy">
-                                    Вогнезахист сталевих конструкцій</a></li>
-                            <li><a class="" href="https://uscc.ua/indeks-utssb">
-                                    Вартість металу</a></li>
-                            <li><a class="" href="https://uscc.ua/member/category/members/-9">
-                                    Покрівельні та фасадні конструкції</a></li>
-                            <li><a class="" href="https://uscc.ua/member/category/members/-8">
-                                    Будівлі з ЛТСК</a></li>
-                            <li><a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
-                                    Консультації та підтримка Інженерного центру</a></li>
-                            <li><a class="" href="https://uscc.ua/catalog/category/catalog1">
-                                    Каталог готових рішень</a></li>
-                        </ul>
-
-                    </li>
-                    <li data-menu="209">
-                        <a href="https://uscc.ua/architect" class="">АРХІТЕКТОРАМ</a>
-                        <ul class="sub-menu">
-                            <li><a class="" href="https://uscc.ua/catalog/category/catalog1">
-                                    Каталог готових рішень</a></li>
-                            <li><a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
-                                    Консультації Інженерного центру УЦСБ</a></li>
-                            <li><a class="" href="https://uscc.ua/kalkulyator-gabaritiv-perekrittya-stalevogo-karkasa">
-                                    Калькулятор габаритів перекриття сталевого каркаса</a></li>
-                            <li><a class="" href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy">
-                                    Підтримка з питань вогнезахисту</a></li>
-                            <li><a class="" href="https://uscc.ua/arkhitekturnye-kluby">
-                                    Архітектурні клуби</a></li>
-                            <li><a class="" href="https://uscc.ua/arkhitekturnyy-konkurs-steel-freedom">
-                                    Архітектурний конкурс Steel Freedom</a></li>
-                            <li><a class="" href="https://uscc.ua/biblioteka">
-                                    БІБЛІОТЕКА</a></li>
-                            <li><a class="" href="https://uscc.ua/ogorodzhuvalni-konstruktsii">
-                                    Огороджувальні конструкції. Рекомендації з проектування</a></li>
-                        </ul>
-
-                    </li>
-                    <li data-menu="208">
-                        <a href="https://uscc.ua/engineer" class="">ПРОЕКТУВАЛЬНИКАМ</a>
-                        <ul class="sub-menu">
-                            <li><a class="" href="https://uscc.ua/sortament-metaloprokaty">
-                                    Сортамент металопрокату</a></li>
-                            <li><a class="" href="https://uscc.ua/vidpovidnist-marok-stali">
-                                    Відповідність марок сталі</a></li>
-                            <li><a class="" href="https://uscc.ua/filterpages/category/-2">
-                                    Нормативні документи</a></li>
-                            <li><a class="" href="https://uscc.ua/tekhnichne-zavdannya-na-proektuvannya-ta-tender">
-                                    Технічне завдання на проектування</a></li>
-                            <li><a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
-                                    Консультації Інженерного центру УЦСБ</a></li>
-                            <li><a class="" href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy">
-                                    Вогнезахист сталевих конструкцій</a></li>
-                            <li><a class="" href="https://uscc.ua/konsultatsi-vid-uchasnikiv-galuzi">
-                                    Консультації від учасників галузі</a></li>
-                            <li><a class="" href="https://uscc.ua/proyektuvannya-po-evrokodam">
-                                    Проектування по Єврокодам</a></li>
-                            <li><a class="" href="https://uscc.ua/metody-znizhennya-vartosti-stalevogo-karkasu">
-                                    Методи зниження вартості сталевого каркасу</a></li>
-                            <li><a class="" href="https://uscc.ua/katalog-proektuvalnikiv">
-                                    КАТАЛОГ ПРОЕКТУВАЛЬНИКІВ МЕТАЛОКОНСТРУКЦІЙ</a></li>
-                        </ul>
-
-                    </li>
-                    <li><a class="" href="https://uscc.ua/avtorizacia-uchasnuka">УЧАСНИКАМ УЦСБ</a></li>
-                </ul>
-            </div>
-            <!--    Start lang-->
-
-
-            <li id="language-menu"><a>ua</a>
-                <ul>
-                    <li>
-                        <a href="#">en</a>
-                    </li>
-                    <li>
-                        <a href="#">ru</a>
-                    </li>
-                </ul>
-            </li>
-
-
-            <!--    End lang-->
-        </div>
-        <div class="menu-btn">
-            <p>МЕНЮ</p>
-        </div>
-
-        <div class="big-menu">
-            <div class="con">
-                <div class="left" style="background-image: url(/img/head_l.jpg)">
-
-                    <ul>
-                        <li data-menu="238">
-                            <a href="https://uscc.ua/utssb" class="">
-                                АСОЦІАЦІЯ УЦСБ</a>
-                        </li>
-                        <li data-menu="240">
-                            <a href="https://uscc.ua/chomu-stal" class="">
-                                ЧОМУ СТАЛЬ</a>
-                        </li>
-                        <li data-menu="254">
-                            <a href="https://uscc.ua/osnovni-typy-stalevykh-konstruktsiy" class="">
-                                ОСНОВНІ ТИПИ СТАЛЕВИХ КОНСТРУКЦІЙ</a>
-                        </li>
-                        <li data-menu="253">
-                            <a href="https://uscc.ua/ekonomika-stalevogo-budivnitstva" class="">
-                                ЕКОНОМІКА СТАЛЕВОГО БУДІВНИЦТВА</a>
-                        </li>
-                        <li data-menu="251">
-                            <a href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy" class="">
-                                ВОГНЕЗАХИСТ СТАЛЕВИХ КОНСТРУКЦІЙ</a>
-                        </li>
-                        <li data-menu="194">
-                            <a href="https://uscc.ua/tehnichna-pidtrymka" class="">
-                                ТЕХНІЧНА ПІДТРИМКА</a>
-                        </li>
-                        <li data-menu="252">
-                            <a href="https://uscc.ua/biblioteka" class="">
-                                БІБЛІОТЕКА</a>
-                        </li>
-                        <li data-menu="255">
-                            <a href="https://uscc.ua/info-tsentr" class="">
-                                ІНФОЦЕНТР</a>
-                        </li>
-                        <li data-menu="312">
-                            <a href="https://uscc.ua/eksport" class="">
-                                ЕКСПОРТ</a>
-                        </li>
-                        <li><a class="" href="https://uscc.ua/kontaktu">КОНТАКТИ</a></li>
-                    </ul>
-                    <ul>
-                        <!--                            <li data-menu="-->
-                        <!--">-->
-                        <!--                                <a href="##" class="-->
-                        <!--">-->
-                        <!--</a>-->
-                        <!--                            </li>-->
-
-                        <li data-menu="199">
-                            <a href="https://uscc.ua/customer" class="">
-                                ЗАМОВНИКАМ</a>
-                        </li>
-                        <!--                            <li data-menu="-->
-                        <!--">-->
-                        <!--                                <a href="##" class="-->
-                        <!--">-->
-                        <!--</a>-->
-                        <!--                            </li>-->
-
-                        <li data-menu="209">
-                            <a href="https://uscc.ua/architect" class="">
-                                АРХІТЕКТОРАМ</a>
-                        </li>
-                        <!--                            <li data-menu="-->
-                        <!--">-->
-                        <!--                                <a href="##" class="-->
-                        <!--">-->
-                        <!--</a>-->
-                        <!--                            </li>-->
-
-                        <li data-menu="208">
-                            <a href="https://uscc.ua/engineer" class="">
-                                ПРОЕКТУВАЛЬНИКАМ</a>
-                        </li>
-                        <li><a class="" href="https://uscc.ua/avtorizacia-uchasnuka">УЧАСНИКАМ УЦСБ</a></li>
-                    </ul>
-                </div>
-                <div class="right" style="background-image: url(/img/head_r.jpg)">
-                    <div class="sub-menu" data-menu="238">
-                        <ul>
-                            <li><a class="" href="https://uscc.ua/member/category/members">
-                                    Учасники УЦСБ</a></li>
-                            <li><a class="" href="https://uscc.ua/yak-stati-uchasnikom-utssb">
-                                    Сервіси УЦСБ та як стати учасником </a></li>
-                            <li><a class="" href="https://uscc.ua/organy-upravlinnya">
-                                    Органи управління</a></li>
-                            <li><a class="" href="https://uscc.ua/komanda-utssb">
-                                    Команда УЦСБ</a></li>
-                            <li><a class="" href="https://uscc.ua/komitety">
-                                    Комітети</a></li>
-                            <li><a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
-                                    Інженерний центр УЦСБ</a></li>
-                            <li><a class=""
-                                    href="https://uscc.ua/natsionalna-konferentsiya-uchasnikiv-rinku-stalevogo-budivnitstva">
-                                    Щорічна конференція галузі</a></li>
-                            <li><a class=""
-                                    href="https://uscc.ua/programa-navchannya-oschadlivogo-virobnitstva-vid-utssb">
-                                    ПРОГРАМА НАВЧАННЯ ОЩАДЛИВОГО ВИРОБНИЦТВА ВІД УЦСБ</a></li>
-                            <li><a class="" href="https://uscc.ua/kalendar-zahodiv">
-                                    Календар заходів</a></li>
-                        </ul>
-                    </div>
-                    <div class="sub-menu" data-menu="240">
-                        <ul>
-                            <li><a class="" href="https://uscc.ua/catalog/category/catalog1">
-                                    Каталог готових рішень</a></li>
-                            <li><a class="" href="https://uscc.ua/perevagi-stalevih-konstruktsiy">
-                                    Переваги сталевих конструкцій</a></li>
-                            <li><a class="" href="https://uscc.ua/filterpages/category/filterpagess">
-                                    Світові кейси</a></li>
-                            <li><a class="" href="https://uscc.ua/perevagi-stali-yak-materialu">
-                                    Переваги сталі як матеріалу</a></li>
-                            <li><a class="" href="https://uscc.ua/budivnitstvo-z-metalokonstruktsiy">
-                                    Будівництво з металоконструкцій</a></li>
-                        </ul>
-                    </div>
-                    <div class="sub-menu" data-menu="254">
-                        <ul>
-                            <li><a class="" href="https://uscc.ua/nesuchi-konstruktsii">
-                                    Несучі конструкції</a></li>
-                            <li><a class="" href="https://uscc.ua/lstk">
-                                    ЛСТК</a></li>
-                            <li><a class="" href="https://uscc.ua/ogorodzhuvalni-konstruktsii">
-                                    Огороджувальні конструкції</a></li>
-                        </ul>
-                    </div>
-                    <div class="sub-menu" data-menu="253">
-                        <ul>
-                            <li><a class="" href="https://uscc.ua/vartist-stalevogo-karkasu">
-                                    Вартість сталевого каркасу</a></li>
-                            <li><a class="" href="https://uscc.ua/shlyahy-znizhennya-vartosti-vognezahistu">
-                                    Шляхи зниження вартості вогнезахисту</a></li>
-                            <li><a class=""
-                                    href="https://uscc.ua/ekonomichniy-efekt-vid-rannogo-vvedennya-budivli-v-ekspluatatsiyu">
-                                    Економічний ефект від раннього введення будівлі в експлуатацію</a></li>
-                            <li><a class="" href="https://uscc.ua/metody-znizhennya-vartosti-stalevogo-karkasu">
-                                    Методи зниження вартості сталевого каркасу</a></li>
-                        </ul>
-                    </div>
-                    <div class="sub-menu" data-menu="251">
-                        <ul>
-                            <li><a class="" href="https://uscc.ua/konsalting-z-vognezahistu">
-                                    Консалтинг з вогнезахисту</a></li>
-                            <li><a class="" href="https://uscc.ua/vognestiykist">
-                                    Вогнестійкість</a></li>
-                            <li><a class="" href="https://uscc.ua/normatyvni-dokumenty-z-vognezahistu">
-                                    Нормативні документи з вогнезахисту</a></li>
-                            <li><a class="" href="https://uscc.ua/osnovni-etapy-vognezahistu">
-                                    Основні етапи вогнезахисту</a></li>
-                            <li><a class="" href="https://uscc.ua/rekomendatsii-schodo-vyboru-vognezahistu">
-                                    Рекомендації щодо вибору вогнезахисту</a></li>
-                            <li><a class="" href="https://uscc.ua/shlyahy-znizhennya-vartosti-vognezahistu">
-                                    Шляхи зниження вартості</a></li>
-                            <li><a class="" href="https://uscc.ua/poshireni-zapitannya-po-vognezahistu">
-                                    Поширені запитання по вогнезахисту</a></li>
-                        </ul>
-                    </div>
-                    <div class="sub-menu" data-menu="194">
-                        <ul>
-                            <li><a class="" href="https://uscc.ua/sortament-metaloprokaty">
-                                    Сортамент металопрокату</a></li>
-                            <li><a class="" href="https://uscc.ua/vidpovidnist-marok-stali">
-                                    Відповідність марок сталі</a></li>
-                            <li><a class="" href="https://uscc.ua/konsultatsi-vid-uchasnikiv-galuzi">
-                                    Консультації від учасників галузі</a></li>
-                            <li><a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
-                                    Консультації Інженерного центру УЦСБ</a></li>
-                            <li><a class="" href="https://uscc.ua/chasti-putannya-inzhenernomy-centry">
-                                    Часті питання інженерному центру</a></li>
-                            <li><a class="" href="https://uscc.ua/proyektuvannya-po-evrokodam">
-                                    Проектування по Єврокодам </a></li>
-                            <li><a class="" href="https://uscc.ua/biblioteka">
-                                    Бібліотека</a></li>
-                            <li><a class="" href="https://uscc.ua/indeks-utssb">
-                                    Індекс УЦСБ</a></li>
-                            <li><a class="" href="https://uscc.ua/tekhnichne-zavdannya-na-proektuvannya-ta-tender">
-                                    Технічне завдання на проектування та тендер</a></li>
-                            <li><a class="" href="https://uscc.ua/kalkulyator-gabaritiv-perekrittya-stalevogo-karkasa">
-                                    Калькулятор габаритів перекриття сталевого каркаса</a></li>
-                            <li><a class="" href="https://uscc.ua/page/cutting">
-                                    Ефективний розкрій листа</a></li>
-                        </ul>
-                    </div>
-                    <div class="sub-menu" data-menu="252">
-                        <ul>
-                            <li><a class="" href="https://uscc.ua/filterpages/category/-5">
-                                    Публікацї</a></li>
-                            <li><a class="" href="https://uscc.ua/filterpages/category/analitic-reviews">
-                                    Аналітичні огляди</a></li>
-                            <li><a class="" href="https://uscc.ua/filterpages/category/-2">
-                                    Нормативні документи</a></li>
-                            <li><a class="" href="https://uscc.ua/filterpages/category/navchalni-videomaterialy">
-                                    Навчальні відеоматеріали</a></li>
-                            <li><a class="" href="https://uscc.ua/rekomendatsi-ta-posibniki">
-                                    Рекомендації та посібники</a></li>
-                            <li><a class="" href="https://uscc.ua/filterpages/category/koncepcii-proektiv-prikladi">
-                                    Концепції проектів (приклади)</a></li>
-                        </ul>
-                    </div>
-                    <div class="sub-menu" data-menu="255">
-                        <ul>
-                            <li><a class="" href="https://uscc.ua/novunu">
-                                    Новини</a></li>
-                            <li><a class="" href="https://uscc.ua/stati-i-intervyu">
-                                    Статті та інтерв'ю</a></li>
-                        </ul>
-                    </div>
-                    <div class="sub-menu" data-menu="312">
-                        <ul>
-                            <li><a class="" href="https://uscc.ua/design-of-steel-structures">
-                                    ЕКСПОРТ СТАЛЕВИХ РІШЕНЬ</a></li>
-                        </ul>
-                    </div>
-                    <div class="sub-menu" data-menu="199">
-                        <ul>
-                            <li><a class="" href="https://uscc.ua/katalog-proektuvalnikiv">
-                                    КАТАЛОГ ПРОЕКТУВАЛЬНИКІВ МЕТАЛОКОНСТРУКЦІЙ</a></li>
-                            <li><a class="" href="https://uscc.ua/member/category/members/steel-manufacturers">
-                                    Виробники металоконструкцій</a></li>
-                            <li><a class="" href="https://uscc.ua/member/category/members/-4">
-                                    Монтаж металоконструкцій</a></li>
-                            <li><a class="" href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy">
-                                    Вогнезахист сталевих конструкцій</a></li>
-                            <li><a class="" href="https://uscc.ua/indeks-utssb">
-                                    Вартість металу</a></li>
-                            <li><a class="" href="https://uscc.ua/member/category/members/-9">
-                                    Покрівельні та фасадні конструкції</a></li>
-                            <li><a class="" href="https://uscc.ua/member/category/members/-8">
-                                    Будівлі з ЛТСК</a></li>
-                            <li><a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
-                                    Консультації та підтримка Інженерного центру</a></li>
-                            <li><a class="" href="https://uscc.ua/catalog/category/catalog1">
-                                    Каталог готових рішень</a></li>
-                        </ul>
-                    </div>
-                    <div class="sub-menu" data-menu="209">
-                        <ul>
-                            <li><a class="" href="https://uscc.ua/catalog/category/catalog1">
-                                    Каталог готових рішень</a></li>
-                            <li><a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
-                                    Консультації Інженерного центру УЦСБ</a></li>
-                            <li><a class="" href="https://uscc.ua/kalkulyator-gabaritiv-perekrittya-stalevogo-karkasa">
-                                    Калькулятор габаритів перекриття сталевого каркаса</a></li>
-                            <li><a class="" href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy">
-                                    Підтримка з питань вогнезахисту</a></li>
-                            <li><a class="" href="https://uscc.ua/arkhitekturnye-kluby">
-                                    Архітектурні клуби</a></li>
-                            <li><a class="" href="https://uscc.ua/arkhitekturnyy-konkurs-steel-freedom">
-                                    Архітектурний конкурс Steel Freedom</a></li>
-                            <li><a class="" href="https://uscc.ua/biblioteka">
-                                    БІБЛІОТЕКА</a></li>
-                            <li><a class="" href="https://uscc.ua/ogorodzhuvalni-konstruktsii">
-                                    Огороджувальні конструкції. Рекомендації з проектування</a></li>
-                        </ul>
-                    </div>
-                    <div class="sub-menu" data-menu="208">
-                        <ul>
-                            <li><a class="" href="https://uscc.ua/sortament-metaloprokaty">
-                                    Сортамент металопрокату</a></li>
-                            <li><a class="" href="https://uscc.ua/vidpovidnist-marok-stali">
-                                    Відповідність марок сталі</a></li>
-                            <li><a class="" href="https://uscc.ua/filterpages/category/-2">
-                                    Нормативні документи</a></li>
-                            <li><a class="" href="https://uscc.ua/tekhnichne-zavdannya-na-proektuvannya-ta-tender">
-                                    Технічне завдання на проектування</a></li>
-                            <li><a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
-                                    Консультації Інженерного центру УЦСБ</a></li>
-                            <li><a class="" href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy">
-                                    Вогнезахист сталевих конструкцій</a></li>
-                            <li><a class="" href="https://uscc.ua/konsultatsi-vid-uchasnikiv-galuzi">
-                                    Консультації від учасників галузі</a></li>
-                            <li><a class="" href="https://uscc.ua/proyektuvannya-po-evrokodam">
-                                    Проектування по Єврокодам</a></li>
-                            <li><a class="" href="https://uscc.ua/metody-znizhennya-vartosti-stalevogo-karkasu">
-                                    Методи зниження вартості сталевого каркасу</a></li>
-                            <li><a class="" href="https://uscc.ua/katalog-proektuvalnikiv">
-                                    КАТАЛОГ ПРОЕКТУВАЛЬНИКІВ МЕТАЛОКОНСТРУКЦІЙ</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="con-mob">
-                        <ul>
-                            <!--                        -->
-                            <li class="has-children" data-menu="238">
-                                <a href="https://uscc.ua/utssb">АСОЦІАЦІЯ УЦСБ <span class="arrow"></span></a>
-                                <ul>
-                                    <li><a href="https://uscc.ua/member/category/members">
-                                            Учасники УЦСБ</a></li>
-                                    <li><a href="https://uscc.ua/yak-stati-uchasnikom-utssb">
-                                            Сервіси УЦСБ та як стати учасником </a></li>
-                                    <li><a href="https://uscc.ua/organy-upravlinnya">
-                                            Органи управління</a></li>
-                                    <li><a href="https://uscc.ua/komanda-utssb">
-                                            Команда УЦСБ</a></li>
-                                    <li><a href="https://uscc.ua/komitety">
-                                            Комітети</a></li>
-                                    <li><a href="https://uscc.ua/inzhenernyy-tsentr-utssb">
-                                            Інженерний центр УЦСБ</a></li>
-                                    <li><a
-                                            href="https://uscc.ua/natsionalna-konferentsiya-uchasnikiv-rinku-stalevogo-budivnitstva">
-                                            Щорічна конференція галузі</a></li>
-                                    <li><a
-                                            href="https://uscc.ua/programa-navchannya-oschadlivogo-virobnitstva-vid-utssb">
-                                            ПРОГРАМА НАВЧАННЯ ОЩАДЛИВОГО ВИРОБНИЦТВА ВІД УЦСБ</a></li>
-                                    <li><a href="https://uscc.ua/kalendar-zahodiv">
-                                            Календар заходів</a></li>
-                                </ul>
-
-                            </li>
-                            <!--                        -->
-                            <!--                        -->
-                            <li class="has-children" data-menu="240">
-                                <a href="https://uscc.ua/chomu-stal">ЧОМУ СТАЛЬ <span class="arrow"></span></a>
-                                <ul>
-                                    <li><a href="https://uscc.ua/catalog/category/catalog1">
-                                            Каталог готових рішень</a></li>
-                                    <li><a href="https://uscc.ua/perevagi-stalevih-konstruktsiy">
-                                            Переваги сталевих конструкцій</a></li>
-                                    <li><a href="https://uscc.ua/filterpages/category/filterpagess">
-                                            Світові кейси</a></li>
-                                    <li><a href="https://uscc.ua/perevagi-stali-yak-materialu">
-                                            Переваги сталі як матеріалу</a></li>
-                                    <li><a href="https://uscc.ua/budivnitstvo-z-metalokonstruktsiy">
-                                            Будівництво з металоконструкцій</a></li>
-                                </ul>
-
-                            </li>
-                            <!--                        -->
-                            <!--                        -->
-                            <li class="has-children" data-menu="254">
-                                <a href="https://uscc.ua/osnovni-typy-stalevykh-konstruktsiy">ОСНОВНІ ТИПИ СТАЛЕВИХ
-                                    КОНСТРУКЦІЙ <span class="arrow"></span></a>
-                                <ul>
-                                    <li><a href="https://uscc.ua/nesuchi-konstruktsii">
-                                            Несучі конструкції</a></li>
-                                    <li><a href="https://uscc.ua/lstk">
-                                            ЛСТК</a></li>
-                                    <li><a href="https://uscc.ua/ogorodzhuvalni-konstruktsii">
-                                            Огороджувальні конструкції</a></li>
-                                </ul>
-
-                            </li>
-                            <!--                        -->
-                            <!--                        -->
-                            <li class="has-children" data-menu="253">
-                                <a href="https://uscc.ua/ekonomika-stalevogo-budivnitstva">ЕКОНОМІКА СТАЛЕВОГО
-                                    БУДІВНИЦТВА <span class="arrow"></span></a>
-                                <ul>
-                                    <li><a href="https://uscc.ua/vartist-stalevogo-karkasu">
-                                            Вартість сталевого каркасу</a></li>
-                                    <li><a href="https://uscc.ua/shlyahy-znizhennya-vartosti-vognezahistu">
-                                            Шляхи зниження вартості вогнезахисту</a></li>
-                                    <li><a
-                                            href="https://uscc.ua/ekonomichniy-efekt-vid-rannogo-vvedennya-budivli-v-ekspluatatsiyu">
-                                            Економічний ефект від раннього введення будівлі в експлуатацію</a></li>
-                                    <li><a href="https://uscc.ua/metody-znizhennya-vartosti-stalevogo-karkasu">
-                                            Методи зниження вартості сталевого каркасу</a></li>
-                                </ul>
-
-                            </li>
-                            <!--                        -->
-                            <!--                        -->
-                            <li class="has-children" data-menu="251">
-                                <a href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy">ВОГНЕЗАХИСТ СТАЛЕВИХ
-                                    КОНСТРУКЦІЙ <span class="arrow"></span></a>
-                                <ul>
-                                    <li><a href="https://uscc.ua/konsalting-z-vognezahistu">
-                                            Консалтинг з вогнезахисту</a></li>
-                                    <li><a href="https://uscc.ua/vognestiykist">
-                                            Вогнестійкість</a></li>
-                                    <li><a href="https://uscc.ua/normatyvni-dokumenty-z-vognezahistu">
-                                            Нормативні документи з вогнезахисту</a></li>
-                                    <li><a href="https://uscc.ua/osnovni-etapy-vognezahistu">
-                                            Основні етапи вогнезахисту</a></li>
-                                    <li><a href="https://uscc.ua/rekomendatsii-schodo-vyboru-vognezahistu">
-                                            Рекомендації щодо вибору вогнезахисту</a></li>
-                                    <li><a href="https://uscc.ua/shlyahy-znizhennya-vartosti-vognezahistu">
-                                            Шляхи зниження вартості</a></li>
-                                    <li><a href="https://uscc.ua/poshireni-zapitannya-po-vognezahistu">
-                                            Поширені запитання по вогнезахисту</a></li>
-                                </ul>
-
-                            </li>
-                            <!--                        -->
-                            <!--                        -->
-                            <li class="has-children" data-menu="194">
-                                <a href="https://uscc.ua/tehnichna-pidtrymka">ТЕХНІЧНА ПІДТРИМКА <span
-                                        class="arrow"></span></a>
-                                <ul>
-                                    <li><a href="https://uscc.ua/sortament-metaloprokaty">
-                                            Сортамент металопрокату</a></li>
-                                    <li><a href="https://uscc.ua/vidpovidnist-marok-stali">
-                                            Відповідність марок сталі</a></li>
-                                    <li><a href="https://uscc.ua/konsultatsi-vid-uchasnikiv-galuzi">
-                                            Консультації від учасників галузі</a></li>
-                                    <li><a href="https://uscc.ua/inzhenernyy-tsentr-utssb">
-                                            Консультації Інженерного центру УЦСБ</a></li>
-                                    <li><a href="https://uscc.ua/chasti-putannya-inzhenernomy-centry">
-                                            Часті питання інженерному центру</a></li>
-                                    <li><a href="https://uscc.ua/proyektuvannya-po-evrokodam">
-                                            Проектування по Єврокодам </a></li>
-                                    <li><a href="https://uscc.ua/biblioteka">
-                                            Бібліотека</a></li>
-                                    <li><a href="https://uscc.ua/indeks-utssb">
-                                            Індекс УЦСБ</a></li>
-                                    <li><a href="https://uscc.ua/tekhnichne-zavdannya-na-proektuvannya-ta-tender">
-                                            Технічне завдання на проектування та тендер</a></li>
-                                    <li><a href="https://uscc.ua/kalkulyator-gabaritiv-perekrittya-stalevogo-karkasa">
-                                            Калькулятор габаритів перекриття сталевого каркаса</a></li>
-                                    <li><a href="https://uscc.ua/page/cutting">
-                                            Ефективний розкрій листа</a></li>
-                                </ul>
-
-                            </li>
-                            <!--                        -->
-                            <!--                        -->
-                            <li class="has-children" data-menu="252">
-                                <a href="https://uscc.ua/biblioteka">БІБЛІОТЕКА <span class="arrow"></span></a>
-                                <ul>
-                                    <li><a href="https://uscc.ua/filterpages/category/-5">
-                                            Публікацї</a></li>
-                                    <li><a href="https://uscc.ua/filterpages/category/analitic-reviews">
-                                            Аналітичні огляди</a></li>
-                                    <li><a href="https://uscc.ua/filterpages/category/-2">
-                                            Нормативні документи</a></li>
-                                    <li><a href="https://uscc.ua/filterpages/category/navchalni-videomaterialy">
-                                            Навчальні відеоматеріали</a></li>
-                                    <li><a href="https://uscc.ua/rekomendatsi-ta-posibniki">
-                                            Рекомендації та посібники</a></li>
-                                    <li><a href="https://uscc.ua/filterpages/category/koncepcii-proektiv-prikladi">
-                                            Концепції проектів (приклади)</a></li>
-                                </ul>
-
-                            </li>
-                            <!--                        -->
-                            <!--                        -->
-                            <li class="has-children" data-menu="255">
-                                <a href="https://uscc.ua/info-tsentr">ІНФОЦЕНТР <span class="arrow"></span></a>
-                                <ul>
-                                    <li><a href="https://uscc.ua/novunu">
-                                            Новини</a></li>
-                                    <li><a href="https://uscc.ua/stati-i-intervyu">
-                                            Статті та інтерв'ю</a></li>
-                                </ul>
-
-                            </li>
-                            <!--                        -->
-                            <!--                        -->
-                            <li class="has-children" data-menu="312">
-                                <a href="https://uscc.ua/eksport">ЕКСПОРТ <span class="arrow"></span></a>
-                                <ul>
-                                    <li><a href="https://uscc.ua/design-of-steel-structures">
-                                            ЕКСПОРТ СТАЛЕВИХ РІШЕНЬ</a></li>
-                                </ul>
-
-                            </li>
-                            <!--                        -->
-                            <!--                        -->
-                            <li><a href="https://uscc.ua/kontaktu">КОНТАКТИ</a></li>
-                            <!--                        -->
-                            <!--                        -->
-                            <li class="has-children" data-menu="199">
-                                <a href="https://uscc.ua/customer">ЗАМОВНИКАМ <span class="arrow"></span></a>
-                                <ul>
-                                    <li><a href="https://uscc.ua/katalog-proektuvalnikiv">
-                                            КАТАЛОГ ПРОЕКТУВАЛЬНИКІВ МЕТАЛОКОНСТРУКЦІЙ</a></li>
-                                    <li><a href="https://uscc.ua/member/category/members/steel-manufacturers">
-                                            Виробники металоконструкцій</a></li>
-                                    <li><a href="https://uscc.ua/member/category/members/-4">
-                                            Монтаж металоконструкцій</a></li>
-                                    <li><a href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy">
-                                            Вогнезахист сталевих конструкцій</a></li>
-                                    <li><a href="https://uscc.ua/indeks-utssb">
-                                            Вартість металу</a></li>
-                                    <li><a href="https://uscc.ua/member/category/members/-9">
-                                            Покрівельні та фасадні конструкції</a></li>
-                                    <li><a href="https://uscc.ua/member/category/members/-8">
-                                            Будівлі з ЛТСК</a></li>
-                                    <li><a href="https://uscc.ua/inzhenernyy-tsentr-utssb">
-                                            Консультації та підтримка Інженерного центру</a></li>
-                                    <li><a href="https://uscc.ua/catalog/category/catalog1">
-                                            Каталог готових рішень</a></li>
-                                </ul>
-
-                            </li>
-                            <!--                        -->
-                            <!--                        -->
-                            <li class="has-children" data-menu="209">
-                                <a href="https://uscc.ua/architect">АРХІТЕКТОРАМ <span class="arrow"></span></a>
-                                <ul>
-                                    <li><a href="https://uscc.ua/catalog/category/catalog1">
-                                            Каталог готових рішень</a></li>
-                                    <li><a href="https://uscc.ua/inzhenernyy-tsentr-utssb">
-                                            Консультації Інженерного центру УЦСБ</a></li>
-                                    <li><a href="https://uscc.ua/kalkulyator-gabaritiv-perekrittya-stalevogo-karkasa">
-                                            Калькулятор габаритів перекриття сталевого каркаса</a></li>
-                                    <li><a href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy">
-                                            Підтримка з питань вогнезахисту</a></li>
-                                    <li><a href="https://uscc.ua/arkhitekturnye-kluby">
-                                            Архітектурні клуби</a></li>
-                                    <li><a href="https://uscc.ua/arkhitekturnyy-konkurs-steel-freedom">
-                                            Архітектурний конкурс Steel Freedom</a></li>
-                                    <li><a href="https://uscc.ua/biblioteka">
-                                            БІБЛІОТЕКА</a></li>
-                                    <li><a href="https://uscc.ua/ogorodzhuvalni-konstruktsii">
-                                            Огороджувальні конструкції. Рекомендації з проектування</a></li>
-                                </ul>
-
-                            </li>
-                            <!--                        -->
-                            <!--                        -->
-                            <li class="has-children" data-menu="208">
-                                <a href="https://uscc.ua/engineer">ПРОЕКТУВАЛЬНИКАМ <span class="arrow"></span></a>
-                                <ul>
-                                    <li><a href="https://uscc.ua/sortament-metaloprokaty">
-                                            Сортамент металопрокату</a></li>
-                                    <li><a href="https://uscc.ua/vidpovidnist-marok-stali">
-                                            Відповідність марок сталі</a></li>
-                                    <li><a href="https://uscc.ua/filterpages/category/-2">
-                                            Нормативні документи</a></li>
-                                    <li><a href="https://uscc.ua/tekhnichne-zavdannya-na-proektuvannya-ta-tender">
-                                            Технічне завдання на проектування</a></li>
-                                    <li><a href="https://uscc.ua/inzhenernyy-tsentr-utssb">
-                                            Консультації Інженерного центру УЦСБ</a></li>
-                                    <li><a href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy">
-                                            Вогнезахист сталевих конструкцій</a></li>
-                                    <li><a href="https://uscc.ua/konsultatsi-vid-uchasnikiv-galuzi">
-                                            Консультації від учасників галузі</a></li>
-                                    <li><a href="https://uscc.ua/proyektuvannya-po-evrokodam">
-                                            Проектування по Єврокодам</a></li>
-                                    <li><a href="https://uscc.ua/metody-znizhennya-vartosti-stalevogo-karkasu">
-                                            Методи зниження вартості сталевого каркасу</a></li>
-                                    <li><a href="https://uscc.ua/katalog-proektuvalnikiv">
-                                            КАТАЛОГ ПРОЕКТУВАЛЬНИКІВ МЕТАЛОКОНСТРУКЦІЙ</a></li>
-                                </ul>
-
-                            </li>
-                            <!--                        -->
-                            <!--                        -->
-                            <li><a href="https://uscc.ua/avtorizacia-uchasnuka">УЧАСНИКАМ УЦСБ</a></li>
-                            <!--                        -->
-                        </ul>
-                    </div>
-                </div>
-                <!--    Start lang-->
-
-
-                <li id="language-menu"><a>ua</a>
-                    <ul>
-                        <li>
-                            <a href="https://uscc.ua/en/katalog-proektuvalnikiv">en</a>
-                        </li>
-                        <li>
-                            <a href="https://uscc.ua/ru/katalog-proektuvalnikiv">ru</a>
-                        </li>
-                    </ul>
+      <div class="right">
+        <div class="menu-container">
+          <ul>
+            <li data-menu="199">
+              <a href="https://uscc.ua/customer" class="">ЗАМОВНИКАМ</a>
+              <ul class="sub-menu">
+                <li>
+                  <a class="" href="https://uscc.ua/katalog-proektuvalnikiv">
+                    КАТАЛОГ ПРОЕКТУВАЛЬНИКІВ МЕТАЛОКОНСТРУКЦІЙ</a
+                  >
                 </li>
-
-
-                <!--    End lang-->
-                <div class="exit-btn"></div>
-                <p class="deco">МЕНЮ:</p>
-            </div>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/member/category/members/steel-manufacturers"
+                  >
+                    Виробники металоконструкцій</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/member/category/members/-4">
+                    Монтаж металоконструкцій</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy"
+                  >
+                    Вогнезахист сталевих конструкцій</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/indeks-utssb">
+                    Вартість металу</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/member/category/members/-9">
+                    Покрівельні та фасадні конструкції</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/member/category/members/-8">
+                    Будівлі з ЛТСК</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
+                    Консультації та підтримка Інженерного центру</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/catalog/category/catalog1">
+                    Каталог готових рішень</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li data-menu="209">
+              <a href="https://uscc.ua/architect" class="">АРХІТЕКТОРАМ</a>
+              <ul class="sub-menu">
+                <li>
+                  <a class="" href="https://uscc.ua/catalog/category/catalog1">
+                    Каталог готових рішень</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
+                    Консультації Інженерного центру УЦСБ</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/kalkulyator-gabaritiv-perekrittya-stalevogo-karkasa"
+                  >
+                    Калькулятор габаритів перекриття сталевого каркаса</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy"
+                  >
+                    Підтримка з питань вогнезахисту</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/arkhitekturnye-kluby">
+                    Архітектурні клуби</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/arkhitekturnyy-konkurs-steel-freedom"
+                  >
+                    Архітектурний конкурс Steel Freedom</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/biblioteka"> БІБЛІОТЕКА</a>
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/ogorodzhuvalni-konstruktsii"
+                  >
+                    Огороджувальні конструкції. Рекомендації з проектування</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li data-menu="208">
+              <a href="https://uscc.ua/engineer" class="">ПРОЕКТУВАЛЬНИКАМ</a>
+              <ul class="sub-menu">
+                <li>
+                  <a class="" href="https://uscc.ua/sortament-metaloprokaty">
+                    Сортамент металопрокату</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/vidpovidnist-marok-stali">
+                    Відповідність марок сталі</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/filterpages/category/-2">
+                    Нормативні документи</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/tekhnichne-zavdannya-na-proektuvannya-ta-tender"
+                  >
+                    Технічне завдання на проектування</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
+                    Консультації Інженерного центру УЦСБ</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy"
+                  >
+                    Вогнезахист сталевих конструкцій</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/konsultatsi-vid-uchasnikiv-galuzi"
+                  >
+                    Консультації від учасників галузі</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/proyektuvannya-po-evrokodam"
+                  >
+                    Проектування по Єврокодам</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/metody-znizhennya-vartosti-stalevogo-karkasu"
+                  >
+                    Методи зниження вартості сталевого каркасу</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/katalog-proektuvalnikiv">
+                    КАТАЛОГ ПРОЕКТУВАЛЬНИКІВ МЕТАЛОКОНСТРУКЦІЙ</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="" href="https://uscc.ua/avtorizacia-uchasnuka"
+                >УЧАСНИКАМ УЦСБ</a
+              >
+            </li>
+          </ul>
         </div>
+        <!--    Start lang-->
 
+        <li id="language-menu">
+          <a>ua</a>
+          <ul>
+            <li>
+              <a href="#">en</a>
+            </li>
+            <li>
+              <a href="#">ru</a>
+            </li>
+          </ul>
+        </li>
 
+        <!--    End lang-->
+      </div>
+      <div class="menu-btn">
+        <p>МЕНЮ</p>
+      </div>
+
+      <div class="big-menu">
+        <div class="con">
+          <div class="left" style="background-image: url(/img/head_l.jpg)">
+            <ul>
+              <li data-menu="238">
+                <a href="https://uscc.ua/utssb" class=""> АСОЦІАЦІЯ УЦСБ</a>
+              </li>
+              <li data-menu="240">
+                <a href="https://uscc.ua/chomu-stal" class=""> ЧОМУ СТАЛЬ</a>
+              </li>
+              <li data-menu="254">
+                <a
+                  href="https://uscc.ua/osnovni-typy-stalevykh-konstruktsiy"
+                  class=""
+                >
+                  ОСНОВНІ ТИПИ СТАЛЕВИХ КОНСТРУКЦІЙ</a
+                >
+              </li>
+              <li data-menu="253">
+                <a
+                  href="https://uscc.ua/ekonomika-stalevogo-budivnitstva"
+                  class=""
+                >
+                  ЕКОНОМІКА СТАЛЕВОГО БУДІВНИЦТВА</a
+                >
+              </li>
+              <li data-menu="251">
+                <a
+                  href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy"
+                  class=""
+                >
+                  ВОГНЕЗАХИСТ СТАЛЕВИХ КОНСТРУКЦІЙ</a
+                >
+              </li>
+              <li data-menu="194">
+                <a href="https://uscc.ua/tehnichna-pidtrymka" class="">
+                  ТЕХНІЧНА ПІДТРИМКА</a
+                >
+              </li>
+              <li data-menu="252">
+                <a href="https://uscc.ua/biblioteka" class=""> БІБЛІОТЕКА</a>
+              </li>
+              <li data-menu="255">
+                <a href="https://uscc.ua/info-tsentr" class=""> ІНФОЦЕНТР</a>
+              </li>
+              <li data-menu="312">
+                <a href="https://uscc.ua/eksport" class=""> ЕКСПОРТ</a>
+              </li>
+              <li><a class="" href="https://uscc.ua/kontaktu">КОНТАКТИ</a></li>
+            </ul>
+            <ul>
+              <!--                            <li data-menu="-->
+              <!--">-->
+              <!--                                <a href="##" class="-->
+              <!--">-->
+              <!--</a>-->
+              <!--                            </li>-->
+
+              <li data-menu="199">
+                <a href="https://uscc.ua/customer" class=""> ЗАМОВНИКАМ</a>
+              </li>
+              <!--                            <li data-menu="-->
+              <!--">-->
+              <!--                                <a href="##" class="-->
+              <!--">-->
+              <!--</a>-->
+              <!--                            </li>-->
+
+              <li data-menu="209">
+                <a href="https://uscc.ua/architect" class=""> АРХІТЕКТОРАМ</a>
+              </li>
+              <!--                            <li data-menu="-->
+              <!--">-->
+              <!--                                <a href="##" class="-->
+              <!--">-->
+              <!--</a>-->
+              <!--                            </li>-->
+
+              <li data-menu="208">
+                <a href="https://uscc.ua/engineer" class="">
+                  ПРОЕКТУВАЛЬНИКАМ</a
+                >
+              </li>
+              <li>
+                <a class="" href="https://uscc.ua/avtorizacia-uchasnuka"
+                  >УЧАСНИКАМ УЦСБ</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="right" style="background-image: url(/img/head_r.jpg)">
+            <div class="sub-menu" data-menu="238">
+              <ul>
+                <li>
+                  <a class="" href="https://uscc.ua/member/category/members">
+                    Учасники УЦСБ</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/yak-stati-uchasnikom-utssb">
+                    Сервіси УЦСБ та як стати учасником
+                  </a>
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/organy-upravlinnya">
+                    Органи управління</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/komanda-utssb">
+                    Команда УЦСБ</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/komitety"> Комітети</a>
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
+                    Інженерний центр УЦСБ</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/natsionalna-konferentsiya-uchasnikiv-rinku-stalevogo-budivnitstva"
+                  >
+                    Щорічна конференція галузі</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/programa-navchannya-oschadlivogo-virobnitstva-vid-utssb"
+                  >
+                    ПРОГРАМА НАВЧАННЯ ОЩАДЛИВОГО ВИРОБНИЦТВА ВІД УЦСБ</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/kalendar-zahodiv">
+                    Календар заходів</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="sub-menu" data-menu="240">
+              <ul>
+                <li>
+                  <a class="" href="https://uscc.ua/catalog/category/catalog1">
+                    Каталог готових рішень</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/perevagi-stalevih-konstruktsiy"
+                  >
+                    Переваги сталевих конструкцій</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/filterpages/category/filterpagess"
+                  >
+                    Світові кейси</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/perevagi-stali-yak-materialu"
+                  >
+                    Переваги сталі як матеріалу</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/budivnitstvo-z-metalokonstruktsiy"
+                  >
+                    Будівництво з металоконструкцій</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="sub-menu" data-menu="254">
+              <ul>
+                <li>
+                  <a class="" href="https://uscc.ua/nesuchi-konstruktsii">
+                    Несучі конструкції</a
+                  >
+                </li>
+                <li><a class="" href="https://uscc.ua/lstk"> ЛСТК</a></li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/ogorodzhuvalni-konstruktsii"
+                  >
+                    Огороджувальні конструкції</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="sub-menu" data-menu="253">
+              <ul>
+                <li>
+                  <a class="" href="https://uscc.ua/vartist-stalevogo-karkasu">
+                    Вартість сталевого каркасу</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/shlyahy-znizhennya-vartosti-vognezahistu"
+                  >
+                    Шляхи зниження вартості вогнезахисту</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/ekonomichniy-efekt-vid-rannogo-vvedennya-budivli-v-ekspluatatsiyu"
+                  >
+                    Економічний ефект від раннього введення будівлі в
+                    експлуатацію</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/metody-znizhennya-vartosti-stalevogo-karkasu"
+                  >
+                    Методи зниження вартості сталевого каркасу</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="sub-menu" data-menu="251">
+              <ul>
+                <li>
+                  <a class="" href="https://uscc.ua/konsalting-z-vognezahistu">
+                    Консалтинг з вогнезахисту</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/vognestiykist">
+                    Вогнестійкість</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/normatyvni-dokumenty-z-vognezahistu"
+                  >
+                    Нормативні документи з вогнезахисту</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/osnovni-etapy-vognezahistu">
+                    Основні етапи вогнезахисту</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/rekomendatsii-schodo-vyboru-vognezahistu"
+                  >
+                    Рекомендації щодо вибору вогнезахисту</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/shlyahy-znizhennya-vartosti-vognezahistu"
+                  >
+                    Шляхи зниження вартості</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/poshireni-zapitannya-po-vognezahistu"
+                  >
+                    Поширені запитання по вогнезахисту</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="sub-menu" data-menu="194">
+              <ul>
+                <li>
+                  <a class="" href="https://uscc.ua/sortament-metaloprokaty">
+                    Сортамент металопрокату</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/vidpovidnist-marok-stali">
+                    Відповідність марок сталі</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/konsultatsi-vid-uchasnikiv-galuzi"
+                  >
+                    Консультації від учасників галузі</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
+                    Консультації Інженерного центру УЦСБ</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/chasti-putannya-inzhenernomy-centry"
+                  >
+                    Часті питання інженерному центру</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/proyektuvannya-po-evrokodam"
+                  >
+                    Проектування по Єврокодам
+                  </a>
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/biblioteka"> Бібліотека</a>
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/indeks-utssb">
+                    Індекс УЦСБ</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/tekhnichne-zavdannya-na-proektuvannya-ta-tender"
+                  >
+                    Технічне завдання на проектування та тендер</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/kalkulyator-gabaritiv-perekrittya-stalevogo-karkasa"
+                  >
+                    Калькулятор габаритів перекриття сталевого каркаса</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/page/cutting">
+                    Ефективний розкрій листа</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="sub-menu" data-menu="252">
+              <ul>
+                <li>
+                  <a class="" href="https://uscc.ua/filterpages/category/-5">
+                    Публікацї</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/filterpages/category/analitic-reviews"
+                  >
+                    Аналітичні огляди</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/filterpages/category/-2">
+                    Нормативні документи</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/filterpages/category/navchalni-videomaterialy"
+                  >
+                    Навчальні відеоматеріали</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/rekomendatsi-ta-posibniki">
+                    Рекомендації та посібники</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/filterpages/category/koncepcii-proektiv-prikladi"
+                  >
+                    Концепції проектів (приклади)</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="sub-menu" data-menu="255">
+              <ul>
+                <li><a class="" href="https://uscc.ua/novunu"> Новини</a></li>
+                <li>
+                  <a class="" href="https://uscc.ua/stati-i-intervyu">
+                    Статті та інтерв'ю</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="sub-menu" data-menu="312">
+              <ul>
+                <li>
+                  <a class="" href="https://uscc.ua/design-of-steel-structures">
+                    ЕКСПОРТ СТАЛЕВИХ РІШЕНЬ</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="sub-menu" data-menu="199">
+              <ul>
+                <li>
+                  <a class="" href="https://uscc.ua/katalog-proektuvalnikiv">
+                    КАТАЛОГ ПРОЕКТУВАЛЬНИКІВ МЕТАЛОКОНСТРУКЦІЙ</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/member/category/members/steel-manufacturers"
+                  >
+                    Виробники металоконструкцій</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/member/category/members/-4">
+                    Монтаж металоконструкцій</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy"
+                  >
+                    Вогнезахист сталевих конструкцій</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/indeks-utssb">
+                    Вартість металу</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/member/category/members/-9">
+                    Покрівельні та фасадні конструкції</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/member/category/members/-8">
+                    Будівлі з ЛТСК</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
+                    Консультації та підтримка Інженерного центру</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/catalog/category/catalog1">
+                    Каталог готових рішень</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="sub-menu" data-menu="209">
+              <ul>
+                <li>
+                  <a class="" href="https://uscc.ua/catalog/category/catalog1">
+                    Каталог готових рішень</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
+                    Консультації Інженерного центру УЦСБ</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/kalkulyator-gabaritiv-perekrittya-stalevogo-karkasa"
+                  >
+                    Калькулятор габаритів перекриття сталевого каркаса</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy"
+                  >
+                    Підтримка з питань вогнезахисту</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/arkhitekturnye-kluby">
+                    Архітектурні клуби</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/arkhitekturnyy-konkurs-steel-freedom"
+                  >
+                    Архітектурний конкурс Steel Freedom</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/biblioteka"> БІБЛІОТЕКА</a>
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/ogorodzhuvalni-konstruktsii"
+                  >
+                    Огороджувальні конструкції. Рекомендації з проектування</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="sub-menu" data-menu="208">
+              <ul>
+                <li>
+                  <a class="" href="https://uscc.ua/sortament-metaloprokaty">
+                    Сортамент металопрокату</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/vidpovidnist-marok-stali">
+                    Відповідність марок сталі</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/filterpages/category/-2">
+                    Нормативні документи</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/tekhnichne-zavdannya-na-proektuvannya-ta-tender"
+                  >
+                    Технічне завдання на проектування</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/inzhenernyy-tsentr-utssb">
+                    Консультації Інженерного центру УЦСБ</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy"
+                  >
+                    Вогнезахист сталевих конструкцій</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/konsultatsi-vid-uchasnikiv-galuzi"
+                  >
+                    Консультації від учасників галузі</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/proyektuvannya-po-evrokodam"
+                  >
+                    Проектування по Єврокодам</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class=""
+                    href="https://uscc.ua/metody-znizhennya-vartosti-stalevogo-karkasu"
+                  >
+                    Методи зниження вартості сталевого каркасу</a
+                  >
+                </li>
+                <li>
+                  <a class="" href="https://uscc.ua/katalog-proektuvalnikiv">
+                    КАТАЛОГ ПРОЕКТУВАЛЬНИКІВ МЕТАЛОКОНСТРУКЦІЙ</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="con-mob">
+              <ul>
+                <!--                        -->
+                <li class="has-children" data-menu="238">
+                  <a href="https://uscc.ua/utssb"
+                    >АСОЦІАЦІЯ УЦСБ <span class="arrow"></span
+                  ></a>
+                  <ul>
+                    <li>
+                      <a href="https://uscc.ua/member/category/members">
+                        Учасники УЦСБ</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/yak-stati-uchasnikom-utssb">
+                        Сервіси УЦСБ та як стати учасником
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/organy-upravlinnya">
+                        Органи управління</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/komanda-utssb"> Команда УЦСБ</a>
+                    </li>
+                    <li><a href="https://uscc.ua/komitety"> Комітети</a></li>
+                    <li>
+                      <a href="https://uscc.ua/inzhenernyy-tsentr-utssb">
+                        Інженерний центр УЦСБ</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/natsionalna-konferentsiya-uchasnikiv-rinku-stalevogo-budivnitstva"
+                      >
+                        Щорічна конференція галузі</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/programa-navchannya-oschadlivogo-virobnitstva-vid-utssb"
+                      >
+                        ПРОГРАМА НАВЧАННЯ ОЩАДЛИВОГО ВИРОБНИЦТВА ВІД УЦСБ</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/kalendar-zahodiv">
+                        Календар заходів</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!--                        -->
+                <!--                        -->
+                <li class="has-children" data-menu="240">
+                  <a href="https://uscc.ua/chomu-stal"
+                    >ЧОМУ СТАЛЬ <span class="arrow"></span
+                  ></a>
+                  <ul>
+                    <li>
+                      <a href="https://uscc.ua/catalog/category/catalog1">
+                        Каталог готових рішень</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/perevagi-stalevih-konstruktsiy">
+                        Переваги сталевих конструкцій</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/filterpages/category/filterpagess"
+                      >
+                        Світові кейси</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/perevagi-stali-yak-materialu">
+                        Переваги сталі як матеріалу</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/budivnitstvo-z-metalokonstruktsiy"
+                      >
+                        Будівництво з металоконструкцій</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!--                        -->
+                <!--                        -->
+                <li class="has-children" data-menu="254">
+                  <a href="https://uscc.ua/osnovni-typy-stalevykh-konstruktsiy"
+                    >ОСНОВНІ ТИПИ СТАЛЕВИХ КОНСТРУКЦІЙ
+                    <span class="arrow"></span
+                  ></a>
+                  <ul>
+                    <li>
+                      <a href="https://uscc.ua/nesuchi-konstruktsii">
+                        Несучі конструкції</a
+                      >
+                    </li>
+                    <li><a href="https://uscc.ua/lstk"> ЛСТК</a></li>
+                    <li>
+                      <a href="https://uscc.ua/ogorodzhuvalni-konstruktsii">
+                        Огороджувальні конструкції</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!--                        -->
+                <!--                        -->
+                <li class="has-children" data-menu="253">
+                  <a href="https://uscc.ua/ekonomika-stalevogo-budivnitstva"
+                    >ЕКОНОМІКА СТАЛЕВОГО БУДІВНИЦТВА <span class="arrow"></span
+                  ></a>
+                  <ul>
+                    <li>
+                      <a href="https://uscc.ua/vartist-stalevogo-karkasu">
+                        Вартість сталевого каркасу</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/shlyahy-znizhennya-vartosti-vognezahistu"
+                      >
+                        Шляхи зниження вартості вогнезахисту</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/ekonomichniy-efekt-vid-rannogo-vvedennya-budivli-v-ekspluatatsiyu"
+                      >
+                        Економічний ефект від раннього введення будівлі в
+                        експлуатацію</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/metody-znizhennya-vartosti-stalevogo-karkasu"
+                      >
+                        Методи зниження вартості сталевого каркасу</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!--                        -->
+                <!--                        -->
+                <li class="has-children" data-menu="251">
+                  <a href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy"
+                    >ВОГНЕЗАХИСТ СТАЛЕВИХ КОНСТРУКЦІЙ <span class="arrow"></span
+                  ></a>
+                  <ul>
+                    <li>
+                      <a href="https://uscc.ua/konsalting-z-vognezahistu">
+                        Консалтинг з вогнезахисту</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/vognestiykist">
+                        Вогнестійкість</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/normatyvni-dokumenty-z-vognezahistu"
+                      >
+                        Нормативні документи з вогнезахисту</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/osnovni-etapy-vognezahistu">
+                        Основні етапи вогнезахисту</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/rekomendatsii-schodo-vyboru-vognezahistu"
+                      >
+                        Рекомендації щодо вибору вогнезахисту</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/shlyahy-znizhennya-vartosti-vognezahistu"
+                      >
+                        Шляхи зниження вартості</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/poshireni-zapitannya-po-vognezahistu"
+                      >
+                        Поширені запитання по вогнезахисту</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!--                        -->
+                <!--                        -->
+                <li class="has-children" data-menu="194">
+                  <a href="https://uscc.ua/tehnichna-pidtrymka"
+                    >ТЕХНІЧНА ПІДТРИМКА <span class="arrow"></span
+                  ></a>
+                  <ul>
+                    <li>
+                      <a href="https://uscc.ua/sortament-metaloprokaty">
+                        Сортамент металопрокату</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/vidpovidnist-marok-stali">
+                        Відповідність марок сталі</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/konsultatsi-vid-uchasnikiv-galuzi"
+                      >
+                        Консультації від учасників галузі</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/inzhenernyy-tsentr-utssb">
+                        Консультації Інженерного центру УЦСБ</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/chasti-putannya-inzhenernomy-centry"
+                      >
+                        Часті питання інженерному центру</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/proyektuvannya-po-evrokodam">
+                        Проектування по Єврокодам
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/biblioteka"> Бібліотека</a>
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/indeks-utssb"> Індекс УЦСБ</a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/tekhnichne-zavdannya-na-proektuvannya-ta-tender"
+                      >
+                        Технічне завдання на проектування та тендер</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/kalkulyator-gabaritiv-perekrittya-stalevogo-karkasa"
+                      >
+                        Калькулятор габаритів перекриття сталевого каркаса</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/page/cutting">
+                        Ефективний розкрій листа</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!--                        -->
+                <!--                        -->
+                <li class="has-children" data-menu="252">
+                  <a href="https://uscc.ua/biblioteka"
+                    >БІБЛІОТЕКА <span class="arrow"></span
+                  ></a>
+                  <ul>
+                    <li>
+                      <a href="https://uscc.ua/filterpages/category/-5">
+                        Публікацї</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/filterpages/category/analitic-reviews"
+                      >
+                        Аналітичні огляди</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/filterpages/category/-2">
+                        Нормативні документи</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/filterpages/category/navchalni-videomaterialy"
+                      >
+                        Навчальні відеоматеріали</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/rekomendatsi-ta-posibniki">
+                        Рекомендації та посібники</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/filterpages/category/koncepcii-proektiv-prikladi"
+                      >
+                        Концепції проектів (приклади)</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!--                        -->
+                <!--                        -->
+                <li class="has-children" data-menu="255">
+                  <a href="https://uscc.ua/info-tsentr"
+                    >ІНФОЦЕНТР <span class="arrow"></span
+                  ></a>
+                  <ul>
+                    <li><a href="https://uscc.ua/novunu"> Новини</a></li>
+                    <li>
+                      <a href="https://uscc.ua/stati-i-intervyu">
+                        Статті та інтерв'ю</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!--                        -->
+                <!--                        -->
+                <li class="has-children" data-menu="312">
+                  <a href="https://uscc.ua/eksport"
+                    >ЕКСПОРТ <span class="arrow"></span
+                  ></a>
+                  <ul>
+                    <li>
+                      <a href="https://uscc.ua/design-of-steel-structures">
+                        ЕКСПОРТ СТАЛЕВИХ РІШЕНЬ</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!--                        -->
+                <!--                        -->
+                <li><a href="https://uscc.ua/kontaktu">КОНТАКТИ</a></li>
+                <!--                        -->
+                <!--                        -->
+                <li class="has-children" data-menu="199">
+                  <a href="https://uscc.ua/customer"
+                    >ЗАМОВНИКАМ <span class="arrow"></span
+                  ></a>
+                  <ul>
+                    <li>
+                      <a href="https://uscc.ua/katalog-proektuvalnikiv">
+                        КАТАЛОГ ПРОЕКТУВАЛЬНИКІВ МЕТАЛОКОНСТРУКЦІЙ</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/member/category/members/steel-manufacturers"
+                      >
+                        Виробники металоконструкцій</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/member/category/members/-4">
+                        Монтаж металоконструкцій</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy"
+                      >
+                        Вогнезахист сталевих конструкцій</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/indeks-utssb">
+                        Вартість металу</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/member/category/members/-9">
+                        Покрівельні та фасадні конструкції</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/member/category/members/-8">
+                        Будівлі з ЛТСК</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/inzhenernyy-tsentr-utssb">
+                        Консультації та підтримка Інженерного центру</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/catalog/category/catalog1">
+                        Каталог готових рішень</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!--                        -->
+                <!--                        -->
+                <li class="has-children" data-menu="209">
+                  <a href="https://uscc.ua/architect"
+                    >АРХІТЕКТОРАМ <span class="arrow"></span
+                  ></a>
+                  <ul>
+                    <li>
+                      <a href="https://uscc.ua/catalog/category/catalog1">
+                        Каталог готових рішень</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/inzhenernyy-tsentr-utssb">
+                        Консультації Інженерного центру УЦСБ</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/kalkulyator-gabaritiv-perekrittya-stalevogo-karkasa"
+                      >
+                        Калькулятор габаритів перекриття сталевого каркаса</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy"
+                      >
+                        Підтримка з питань вогнезахисту</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/arkhitekturnye-kluby">
+                        Архітектурні клуби</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/arkhitekturnyy-konkurs-steel-freedom"
+                      >
+                        Архітектурний конкурс Steel Freedom</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/biblioteka"> БІБЛІОТЕКА</a>
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/ogorodzhuvalni-konstruktsii">
+                        Огороджувальні конструкції. Рекомендації з
+                        проектування</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!--                        -->
+                <!--                        -->
+                <li class="has-children" data-menu="208">
+                  <a href="https://uscc.ua/engineer"
+                    >ПРОЕКТУВАЛЬНИКАМ <span class="arrow"></span
+                  ></a>
+                  <ul>
+                    <li>
+                      <a href="https://uscc.ua/sortament-metaloprokaty">
+                        Сортамент металопрокату</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/vidpovidnist-marok-stali">
+                        Відповідність марок сталі</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/filterpages/category/-2">
+                        Нормативні документи</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/tekhnichne-zavdannya-na-proektuvannya-ta-tender"
+                      >
+                        Технічне завдання на проектування</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/inzhenernyy-tsentr-utssb">
+                        Консультації Інженерного центру УЦСБ</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy"
+                      >
+                        Вогнезахист сталевих конструкцій</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/konsultatsi-vid-uchasnikiv-galuzi"
+                      >
+                        Консультації від учасників галузі</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/proyektuvannya-po-evrokodam">
+                        Проектування по Єврокодам</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://uscc.ua/metody-znizhennya-vartosti-stalevogo-karkasu"
+                      >
+                        Методи зниження вартості сталевого каркасу</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://uscc.ua/katalog-proektuvalnikiv">
+                        КАТАЛОГ ПРОЕКТУВАЛЬНИКІВ МЕТАЛОКОНСТРУКЦІЙ</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!--                        -->
+                <!--                        -->
+                <li>
+                  <a href="https://uscc.ua/avtorizacia-uchasnuka"
+                    >УЧАСНИКАМ УЦСБ</a
+                  >
+                </li>
+                <!--                        -->
+              </ul>
+            </div>
+          </div>
+          <!--    Start lang-->
+
+          <li id="language-menu">
+            <a>ua</a>
+            <ul>
+              <li>
+                <a href="https://uscc.ua/en/katalog-proektuvalnikiv">en</a>
+              </li>
+              <li>
+                <a href="https://uscc.ua/ru/katalog-proektuvalnikiv">ru</a>
+              </li>
+            </ul>
+          </li>
+
+          <!--    End lang-->
+          <div class="exit-btn"></div>
+          <p class="deco">МЕНЮ:</p>
+        </div>
+      </div>
     </header>
 
     <main class="page-template page-account">
-        <section class="block_header">
-            <div class="container-100">
-                <div class="breadcrumbs">
-                    <a href="https://uscc.ua/">Головна</a>
-                    <span>/</span>
-                    <a href="index.html">Каталог заводів металоконструкцій</a>
-                    <span>/</span>
-                    <p>Завод №1</p>
-                </div>
+      <section class="block_header">
+        <div class="container-100">
+          <div class="breadcrumbs">
+            <a href="https://uscc.ua/">Головна</a>
+            <span>/</span>
+            <a href="index.html">Каталог заводів металоконструкцій</a>
+            <span>/</span>
+            <p>Завод №1</p>
+          </div>
+        </div>
+        <div class="container-100">
+          <div class="text-information platfomt_title">
+            <div class="title-block platfomt_title_text">
+              <h1>Завод №1</h1>
+              <p class="platform_company_uscc_logo">
+                <img src="static/img/platform_uscc_customer.png" /><span
+                  >Учасник УЦСБ</span
+                >
+              </p>
             </div>
-            <div class="container-100">
-                <div class="text-information platfomt_title">
-                    <div class="title-block platfomt_title_text">
-                        <h1>Завод №1</h1>
-                        <p class="platform_company_uscc_logo">
-                            <img src="static/img/platform_uscc_customer.png"><span>Учасник УЦСБ</span>
-                        </p>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <section class="platform_company_container">
+        <div class="container-100">
+          <div class="platform_company_info txt-content">
+            <div class="platform_company_detail">
+              <img
+                class="platform_company_logo"
+                src="static/img/Steel_factory.jpg"
+              />
+              <p><span class="platform_text_bold">Регіон: </span>м. Київ</p>
+              <p>
+                <span class="platform_text_bold"
+                  >Адреса потужностей виробництва: </span
+                >00342, вул. Машинобудывельна 12
+              </p>
+              <p>
+                <span class="platform_text_bold"
+                  >Відповідність стандарту на виготовлення : </span
+                >EN 1090-2
+              </p>
+              <p>
+                <span class="platform_text_bold">Потужність: </span> 250 т/міс
+              </p>
+              <p>
+                <span class="platform_text_bold"
+                  >Досвід постачання на експорт : </span
+                >Польща, Угорщина, Австрія
+              </p>
+              <p>
+                <span class="platform_text_bold"
+                  >Спеціалізація за видами конструкцій :
+                </span>
+                Рамні та болкові конструкції з прокатних та зварних профілів,
+                Ферми, Мостові конструкції, Антенні споруди, щогли.
+              </p>
+              <p>
+                <span class="platform_text_bold">Проектнтні роботи: </span
+                >Розробка КМД
+              </p>
+              <p>
+                <span class="platform_text_bold">Монтажні роботи: : </span
+                >Монтаж металоконструкцій, монтаж огороджувальних конструкцій,
+                генпідряд
+              </p>
+
+              <p>
+                <span class="platform_text_bold"
+                  >Клас виконання за EN1090-2 : </span
+                >EXC2
+              </p>
+              <p>
+                <span class="platform_text_bold"
+                  >Максимальна вага відправного елементу : </span
+                > 20 тон
+              </p>
+
+
+              <h3 class="title platform_text_h3 bold">Технологічні можливості</h3>
+
+                    <p class="platform_text">
+                        Наявність  обладнання для очистки конструкцій до степеню Sa2 1/2 згідно ДСТУ ISO 8501-1</p
+                    >
+
+                    <p class="platform_text">
+                        Наявність ділянки нанесення АКЗ з контрольованими кліматичними
+                        параметрами</p
+                      >
+
+                    <p class="platform_text"> Автоматична лінія складання та зварювання  двотаврових балок - 2000 м/міс</p
+                        > 
+
+                    <p class="platform_text">
+                        Вальцювання листового та профільного прокату</p
+                    >
+
+
+
+
+
+
+
+              <h3 class="title platform_text_h3 bold">
+                Системи управління виробництвом
+              </h3>
+              <p>
+                <span class="platform_text">
+                  Впроваджена система менеджменту якості : </span
+                > ISO 9001:2008
+              </p>
+              <p>
+                <span class="platform_text">
+                  Впроваджені системи управління виробництвом (LEAN, ТОС тощо.)
+                  : </span
+                > LEAN
+              </p>
+
+              <h3 class="title platform_text_h3 bold">Технології зварювання</h3>
+              <p>
+                <span class="platform_text">
+                  Сертифікат відповідності стандартам по зварюванню </span
+                >
+              </p>
+              <p>
+                <span class="platform_text">
+                  Зварювання сталей підвищеної міцності і високоміцних сталей
+                  (>C355) та/або спеціальних </span
+                >
+              </p>
+
+              <p>
+                <span class="platform_text">
+                  Атестація технології зварювання EN ISO 3834-2 </span
+                >
+              <p>
+                <span class="platform_text">
+                  Атестація зварювальників </span
+                >
+              </p>
+              <p>
+                <span class="platform_text">
+                  Неруйнівні методи контролю якості зварних з'єднань - Візуальний, UT, RT, LT, MT </span
+                >
+              </p>
             </div>
-        </section>
-        <section class="platform_company_container">
-            <div class="container-100">
-                <div class="platform_company_info txt-content">
-                    <div class="platform_company_detail">
-                        <img class="platform_company_logo" src="static/img/gear.png">
-                        <p><span class="platform_text_bold">Регіон: </span>м. Київ</p>
-                        <p><span class="platform_text_bold">Адреса потужностей виробництва: </span>00342, вул. Машинобудывельна 12</p>
-                        <p><span class="platform_text_bold">Відповідність стандарту на виготовлення
-                                : </span>EN 1090-2</p>
-                        <p><span class="platform_text_bold">Потужність: </span> 250 т/міс</p>
-                        <p><span class="platform_text_bold">Досвід постачання на експорт
-                                : </span>Польща, Угорщина, Австрія</p>
-                        <p><span class="platform_text_bold">Спеціалізація за видами конструкцій
-                                : </span> Рамні та болкові конструкції з прокатних та зварних профілів, Ферми, Мостові конструкції, Антенні споруди, щогли.</p>
-                        <p><span class="platform_text_bold">Проектнтні роботи: </span>Розробка КМД</p>
-                        <p><span class="platform_text_bold">Монтажні роботи: 
-                                : </span>Монтаж металоконструкцій, монтаж огороджувальних конструкцій, генпідряд</p>
+          </div>
+          <div class="platform_company_info txt-content">
+            <h3 class="title platform_text_h3 bold">Контактна інформація</h3>
+            <p>
+              <span class="platform_text_bold">Телефон: </span>+380 (00)
+              000-0000
+            </p>
+            <p>
+              <span class="platform_text_bold">Email: </span>zavod1@gmail.com
+            </p>
+            <p>
+              <span class="platform_text_bold">Сайт: </span>
+              <a target="_blank" href="#">https://zavod1.com.ua/</a>
+            </p>
 
+            <p>
+              <span class="platform_text_bold">Адреса: </span>м.Київ,
+              вул.Машинобудівна, 12
+            </p>
+          </div>
+        </div>
+      </section>
 
-                        <p><span class="platform_text_bold">Клас виконання за EN1090-2
-                                : </span>EXC2
-                        </p>
-                        <p><span class="platform_text_bold">Максимальна вага відправного елементу
-                                : </span>до 15 тон
-                        </p>
-                        <p><span class="platform_text_bold">Виробничі потужності з прольотами 18 м і більше
-                                : </span>до 30 м.
-                        </p>
-                        <p><span class="platform_text_bold">
-                            Технологічні можливості
-                                : </span>до 30 м.
-                        </p>
-                        <h3 class="title platform_text_h3">Технологічні можливості</h3>
-                        <p><span class="platform_text_bold">
-                            Наявність дробеметної камери</span>
-                        </p>
-                        <p><span class="platform_text_bold">
-                            Наявність ділянки нанесення АКЗ з контрольованими кліматичними параметрами</span>
-                        </p>
-                        <p><span class="platform_text_bold">
-                            Лінія зварної балки
-                                : </span>Мінімальна висота - 200мм. Максимальна висота - 1500мм. Мінімальна ширина полки - 120 мм. Максимальна ширина полки - 500 мм.
-                        </p>
-                        <p><span class="platform_text_bold">
-                            Вальцювання листа 
-                                : </span>товщина листа від 4 до 20 мм. Радіус від 50 до 200 мм
-                        </p>
-                        <p><span class="platform_text_bold">
-                            Вальцювання порожнистих профілів
-                                : </span>товщина листа від 4 до 20 мм. Радіус від 50 до 200 мм
-                        </p>
-                        <p><span class="platform_text_bold">
-                            Можливість виконання будівельного підйому
-                                : </span>________________
-                        </p>
-                        <p><span class="platform_text_bold">
-                            Забезпечення на елементах листових конструкцій стиків
-                                : </span>________________
-                        </p>
-                        <h3 class="title platform_text_h3">Системи управління виробництвом</h3>
-                        <p><span class="platform_text_bold">
-                            Впроваджена система менеджменту якості
-                                : </span>________________
-                        </p>
-                        <p><span class="platform_text_bold">
-                            Впроваджені системи управління виробництвом (LEAN, ТОС тощо.)
-                                : </span>________________
-                        </p>
-                        <p><span class="platform_text_bold">
-                            Помарочне прослідковування конструкцій у виробництві</span>
-                        </p>
-                        <h3 class="title platform_text_h3">Технології зварювання</h3>
-                        <p><span class="platform_text_bold">
-                            Сертифікат відповідності стандартам по зварюванню
-                                : </span>_____________________________
-                        </p>
-                        <p><span class="platform_text_bold">
-                            Зварювання сталей підвищеної міцності і високоміцних сталей (>C355) та/або спеціальних
-                                : </span>______________________________________
-                        </p>
-                        <p><span class="platform_text_bold">
-                            Атестація обладнання для зварювання
-                                : </span>______________________________________
-                        </p>
-                        <p><span class="platform_text_bold">
-                            Атестація технології зварювання
-                                : </span>______________________________________
-                        </p>
-                        <p><span class="platform_text_bold">
-                            Атестація зварювальників
-                                : </span>______________________________________
-                        </p>
-                        <p><span class="platform_text_bold">
-                            Неруйнівні методи контролю якості зварних з'єднань
-                                : </span>______________________________________
-                        </p>
-                    </div>
-                </div>
-                <div class="platform_company_info txt-content">
-                    <h3 class="title platform_text_h3">Контактна інформація</h3>
-                    <p><span class="platform_text_bold">Телефон: </span>+380 (00) 000-0000</p>
-                    <p><span class="platform_text_bold">Email: </span>zavod1@gmail.com</p>
-                    <p><span class="platform_text_bold">Сайт: </span> <a target="_blank"
-                            href="#">https://zavod1.com.ua/</a></p>
-                    <div class="platform_reg_socials_container">
-                        <p> <a target="_blank" href="https://www.facebook.com/Design.bureau.Vartist"><img
-                                    class="platform-reg-social-link-image" src="./130_files/fb.svg"></a></p>
-                        <p>
-                            <a target="_blank" href="https://www.linkedin.com/in/artem-bilyk-a3587017b/">
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0"
-                                    y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512"
-                                    xml:space="preserve" class="platform-reg-social-link-image">
-                                    <g>
-                                        <path xmlns="http://www.w3.org/2000/svg"
-                                            d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z"
-                                            fill="#536279" data-original="#000000" class=""></path>
-                                        <path xmlns="http://www.w3.org/2000/svg" d="m.396 7.977h4.976v16.023h-4.976z"
-                                            fill="#536279" data-original="#000000" class=""></path>
-                                        <path xmlns="http://www.w3.org/2000/svg"
-                                            d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z"
-                                            fill="#536279" data-original="#000000" class=""></path>
-                                    </g>
-                                </svg>
-                            </a>
-                        </p>
-                    </div>
-                    <p><span class="platform_text_bold">Адреса: </span>м.Київ, вул.Машинобудівна, 12</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Портфоліо -->
-
-        <section class="platform_portfolio_section">
-            <div class="container-100">
-                <div class="txt-content">
-                    <h2 class="title platform_text_center">Фото</h2>
-                    <div class="portfolio">
-                        <section style="width: 100%" class="template_4_project">
-                            <div class="gallery">
-                                <div class="img" data-src="static/img/factory.jpg">
-                                    <a href="https://uscc.ua/katalog-proektuvalnikiv/company/130##">
-                                        <img src="static/img/factory.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="img" data-src="static/img/factory2.jpg">
-                                    <a href="https://uscc.ua/katalog-proektuvalnikiv/company/130##">
-                                        <img src="static/img/factory2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="img" data-src="static/img/factory3.jpg">
-                                    <a href="https://uscc.ua/katalog-proektuvalnikiv/company/130##">
-                                        <img src="static/img/factory3.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-
-                </div>
-            </div>
-        </section>
+      <!-- Портфоліо -->
     </main>
     <style>
-        .platform_portfolio_information {
-            width: 30%;
-        }
+      .platform_portfolio_information {
+        width: 30%;
+      }
 
-        .platform_portfolio_section h2 {
-            padding: 30px 30px 30px 0px !important;
-        }
+      .platform_portfolio_section h2 {
+        padding: 30px 30px 30px 0px !important;
+      }
 
-        .portfolio .template_4_project {
-            width: 70%;
-            padding-right: 50px;
-        }
+      .portfolio .template_4_project {
+        width: 70%;
+        padding-right: 50px;
+      }
 
-        .portfolio {
-            display: flex;
-        }
+      .portfolio {
+        display: flex;
+      }
 
-        .platform_text_center {
-            text-align: left;
-            padding-bottom: 19px;
-            padding-top: 19px !important;
-        }
+      .platform_text_center {
+        text-align: left;
+        padding-bottom: 19px;
+        padding-top: 19px !important;
+      }
 
-        .title.platform_text_h3 {
-            padding: 10px 0;
-        }
+      .title.platform_text_h3 {
+        padding: 10px 0;
+      }
 
-        .platfomt_title {
-            width: 100%;
-        }
+      .platfomt_title {
+        width: 100%;
+      }
 
-        .platform_company_detail p {
-            margin-bottom: 10px !important;
-        }
+      .platform_company_detail p {
+        margin-bottom: 10px !important;
+      }
 
-        .platform_text_bold {
-            color: #536279;
-            font-weight: 600 !important;
-        }
+      .platform_text_bold {
+        color: #536279;
+        font-weight: 600 !important;
+      }
 
-        .platform_company_container.template_4_defImg {
-            padding: 20px 0px;
+      .platform_company_container.template_4_defImg {
+        padding: 20px 0px;
+      }
+
+      .platform_company_detail .platform_company_logo {
+        float: left;
+        padding: 10px;
+        max-width: 270px;
+        width: 270px;
+        height: auto;
+        margin-right: 25px;
+        padding-top: 0;
+        padding-left: 0;
+      }
+
+      .platfomt_title_text {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .platfomt_title_text img {
+        width: 35px;
+      }
+
+      .platform_company_detail .platform_company_uscc_logo {
+        display: flex;
+        align-items: baseline;
+      }
+
+      .template_4_project {
+        margin-top: 19px;
+      }
+
+      .txt-content h2 {
+        font-size: 35px;
+        margin-bottom: 0 !important;
+      }
+
+      @media (max-width: 576px) {
+        .platform-reg-social-link-image {
+          max-width: 10px !important;
         }
 
         .platform_company_detail .platform_company_logo {
-            float: left;
-            padding: 10px;
-            max-width: 270px;
-            width: 270px;
-            height: auto;
-            margin-right: 25px;
-            padding-top: 0;
-            padding-left: 0;
-        }
-
-        .platfomt_title_text {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .platfomt_title_text img {
-            width: 35px;
-        }
-
-        .platform_company_detail .platform_company_uscc_logo {
-            display: flex;
-            align-items: baseline;
-        }
-
-        .template_4_project {
-            margin-top: 19px;
-        }
-
-        .txt-content h2 {
-            font-size: 35px;
-            margin-bottom: 0 !important;
-        }
-
-        @media (max-width: 576px) {
-            .platform-reg-social-link-image {
-                max-width: 10px !important;
-            }
-
-            .platform_company_detail .platform_company_logo {
-                float: none;
-            }
-
-            .platform_company_detail {
-                text-align: center;
-            }
-
-            .platform_company_detail p {
-                text-align: left !important;
-            }
-
-            .portfolio {
-                display: flex;
-                /*flex-flow: column;*/
-                flex-flow: column-reverse;
-                border-bottom: 1px solid lightgray;
-            }
-
-            .portfolio .template_4_project {
-                width: 100% !important;
-            }
-
-            .portfolio .platform_portfolio_information {
-                width: 100% !important;
-            }
-
-        }
-
-        .platform-reg-social-link-image {
-            width: 15px;
-            display: block;
-            margin-right: 10px;
-            height: 19px;
-        }
-
-        .platform_reg_socials_container {
-            display: flex;
-            flex-flow: row nowrap;
-            justify-content: flex-start;
-            align-items: center;
-        }
-
-        .template_4_project .gallery .img:nth-child(14),
-        .template_4_project .gallery .img:nth-child(5),
-        .template_4_project .gallery .img:nth-child(6),
-        .template_4_project .gallery .img:nth-child(8),
-        .template_4_project .gallery .img:nth-child(9),
-        .template_4_project .gallery .img:nth-child(11),
-        .template_4_project .gallery .img:nth-child(12) {
-            display: block !important;
-            width: calc(33.33% - 26.667px);
-            height: calc((100vw - 180px)/ 4.35) !important;
-            margin-top: 40px;
-            margin-right: 40px;
-        }
-
-        .template_4_project .gallery .img:nth-child(4) {
-            display: block;
-        }
-
-        .platform_company_info ul li {
-            list-style: none;
+          float: none;
         }
 
         .platform_company_detail {
-            overflow: hidden;
+          text-align: center;
         }
 
-        .platform_company_card_list_certificates {
-            margin-bottom: 10px;
+        .platform_company_detail p {
+          text-align: left !important;
         }
 
-        .platform_company_card_list_certificates li {
-            position: relative;
-            left: 19px;
+        .portfolio {
+          display: flex;
+          /*flex-flow: column;*/
+          flex-flow: column-reverse;
+          border-bottom: 1px solid lightgray;
         }
 
-        .template_4_project .gallery .img:nth-child(7),
-        .template_4_project .gallery .img:nth-child(4),
-        .template_4_project .gallery .img:nth-child(10) {
-            display: block !important;
-            width: calc(33.33% - 26.667px);
-            height: calc((100vw - 180px)/ 4.35) !important;
-            margin-top: 40px;
-            margin-right: 0 !important;
+        .portfolio .template_4_project {
+          width: 100% !important;
         }
 
-        .template_4_project .gallery .img {
-            display: block !important;
-            width: calc(33.33% - 26.667px);
-            height: calc((100vw - 180px)/ 4.35) !important;
-            margin-top: 40px;
-            margin-right: 40px;
-            overflow: hidden !important;
+        .portfolio .platform_portfolio_information {
+          width: 100% !important;
         }
+      }
 
-        .template_4_project .gallery .img:nth-child(1) {
-            margin-bottom: 0 !important;
-        }
+      .platform-reg-social-link-image {
+        width: 15px;
+        display: block;
+        margin-right: 10px;
+        height: 19px;
+      }
+
+      .platform_reg_socials_container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      .template_4_project .gallery .img:nth-child(14),
+      .template_4_project .gallery .img:nth-child(5),
+      .template_4_project .gallery .img:nth-child(6),
+      .template_4_project .gallery .img:nth-child(8),
+      .template_4_project .gallery .img:nth-child(9),
+      .template_4_project .gallery .img:nth-child(11),
+      .template_4_project .gallery .img:nth-child(12) {
+        display: block !important;
+        width: calc(33.33% - 26.667px);
+        height: calc((100vw - 180px) / 4.35) !important;
+        margin-top: 40px;
+        margin-right: 40px;
+      }
+
+      .template_4_project .gallery .img:nth-child(4) {
+        display: block;
+      }
+
+      .platform_company_info ul li {
+        list-style: none;
+      }
+
+      .platform_company_detail {
+        overflow: hidden;
+      }
+
+      .platform_company_card_list_certificates {
+        margin-bottom: 10px;
+      }
+
+      .platform_company_card_list_certificates li {
+        position: relative;
+        left: 19px;
+      }
+
+      .template_4_project .gallery .img:nth-child(7),
+      .template_4_project .gallery .img:nth-child(4),
+      .template_4_project .gallery .img:nth-child(10) {
+        display: block !important;
+        width: calc(33.33% - 26.667px);
+        height: calc((100vw - 180px) / 4.35) !important;
+        margin-top: 40px;
+        margin-right: 0 !important;
+      }
+
+      .template_4_project .gallery .img {
+        display: block !important;
+        width: calc(33.33% - 26.667px);
+        height: calc((100vw - 180px) / 4.35) !important;
+        margin-top: 40px;
+        margin-right: 40px;
+        overflow: hidden !important;
+      }
+
+      .template_4_project .gallery .img:nth-child(1) {
+        margin-bottom: 0 !important;
+      }
     </style>
 
     <div id="cookie-site" class="footer-cookies cookies-hidden">
-        <div>Цей сайт використовує файли cookie для забезпечення функціональності та підвищення зручності користувачів.
-            Щоб дізнатися більше, ознайомтеся з Політикою конфіденційності
-            Детальнiше: <a href="https://uscc.ua/politika-konfidentsiynosti"
-                target="_blank">https://uscc.ua/politika-konfidentsiynosti</a></div>
-        <form action="https://uscc.ua/site/coockie" method="GET">
-            <div>
-                <button type="submit">Прийняти</button>
-                <button id="coockie-cancel" type="button">Пропустити</button>
-                <input name="ip" type="hidden" value="91.210.251.202">
-                <input name="link" type="hidden" value="/katalog-proektuvalnikiv">
-            </div>
-        </form>
+      <div>
+        Цей сайт використовує файли cookie для забезпечення функціональності та
+        підвищення зручності користувачів. Щоб дізнатися більше, ознайомтеся з
+        Політикою конфіденційності Детальнiше:
+        <a href="https://uscc.ua/politika-konfidentsiynosti" target="_blank"
+          >https://uscc.ua/politika-konfidentsiynosti</a
+        >
+      </div>
+      <form action="https://uscc.ua/site/coockie" method="GET">
+        <div>
+          <button type="submit">Прийняти</button>
+          <button id="coockie-cancel" type="button">Пропустити</button>
+          <input name="ip" type="hidden" value="91.210.251.202" />
+          <input name="link" type="hidden" value="/katalog-proektuvalnikiv" />
+        </div>
+      </form>
     </div>
     <footer class="footer">
-        <div class="container-100">
-            <a href="https://uscc.ua/" class="logo">
-                <img src="./katalog-proektuvalnikiv_files/logo2.png" alt="">
+      <div class="container-100">
+        <a href="https://uscc.ua/" class="logo">
+          <img src="./katalog-proektuvalnikiv_files/logo2.png" alt="" />
+        </a>
+        <div class="cont">
+          <div class="footer_contact_block_inner">
+            <div class="text_with_icons">
+              <p>
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="map-marker-alt"
+                  class="svg-inline--fa fa-map-marker-alt fa-w-12"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                  ></path></svg
+                >Україна, 02002, м. Київ<br />
+                вул. Є.Сверстюка 2А, оф. 606&nbsp;<br />БЦ «Лівобережний»
+              </p>
+              <p><br /></p>
+            </div>
+            <div class="text_with_icons">
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="phone-alt"
+                  class="svg-inline--fa fa-phone-alt fa-w-16"
+                  role="img"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"
+                  ></path></svg
+                ><a href="tel:+38-044-465-76-39"
+                  >+38-044-465-76-39, +38-097-357-23-39</a
+                >
+              </p>
+            </div>
+            <div class="text_with_icons">
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="far"
+                  data-icon="envelope"
+                  class="svg-inline--fa fa-envelope fa-w-16"
+                  role="img"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"
+                  ></path></svg
+                ><a href="mailto:info@uscc.ua">info@uscc.ua</a>
+              </p>
+            </div>
+            <div>
+              <p>Асоціація УЦСБ, 2020<br />СТАЛЬ. ПРАВИЛЬНИЙ&nbsp;ВИБІР</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-coll">
+          <ul>
+            <li>
+              <a href="https://uscc.ua/sortament-metaloprokaty"
+                >Сортамент металопрокату</a
+              >
+            </li>
+            <li>
+              <a href="https://uscc.ua/catalog/category/catalog1"
+                >Каталог готових рішень</a
+              >
+            </li>
+            <li>
+              <a href="https://uscc.ua/perevagi-stalevih-konstruktsiy"
+                >Переваги сталевих конструкцій</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://uscc.ua/metody-znizhennya-vartosti-stalevogo-karkasu"
+                >Методи зниження вартості сталевого каркасу</a
+              >
+            </li>
+          </ul>
+          <p><br /></p>
+        </div>
+        <div class="menu-coll">
+          <ul>
+            <li>
+              <a href="https://uscc.ua/konsultatsi-vid-uchasnikiv-galuzi"
+                >Консультації від учасників галузі</a
+              >
+            </li>
+            <li>
+              <a href="https://uscc.ua/konsultatsii-inzhenernogo-tsentra-utssb"
+                >Консультації інженерного центра УЦСБ</a
+              >
+            </li>
+            <li>
+              <a href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy"
+                >Вогнезахист сталевих конструкцій</a
+              >
+            </li>
+            <li><a href="https://uscc.ua/biblioteka">Бібліотека</a></li>
+          </ul>
+        </div>
+        <div class="socials">
+          <div class="footer-lang-view">
+            <ul>
+              <li id="language-menu">
+                <a>ua</a>
+                <ul>
+                  <li>
+                    <a href="https://uscc.ua/en/katalog-proektuvalnikiv">en</a>
+                  </li>
+                  <li>
+                    <a href="https://uscc.ua/ru/katalog-proektuvalnikiv">ru</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <a
+              target="_blank"
+              class="fb"
+              href="https://www.youtube.com/channel/UCjLA-d50zc_8I665CgALoQg"
+            >
+              <img src="static/img/yt.svg" />
             </a>
-            <div class="cont">
-                <div class="footer_contact_block_inner">
-                    <div class="text_with_icons">
-                        <p><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt"
-                                class="svg-inline--fa fa-map-marker-alt fa-w-12" role="img"
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                                <path fill="currentColor"
-                                    d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
-                                </path>
-                            </svg>Україна, 02002, м. Київ<br> вул. Є.Сверстюка 2А, оф. 606&nbsp;<br>БЦ «Лівобережний»
-                        </p>
-                        <p><br></p>
-                    </div>
-                    <div class="text_with_icons">
-                        <p><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
-                                data-prefix="fas" data-icon="phone-alt" class="svg-inline--fa fa-phone-alt fa-w-16"
-                                role="img" viewBox="0 0 512 512">
-                                <path fill="currentColor"
-                                    d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z">
-                                </path>
-                            </svg><a href="tel:+38-044-465-76-39">+38-044-465-76-39, +38-097-357-23-39</a></p>
-                    </div>
-                    <div class="text_with_icons">
-                        <p><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
-                                data-prefix="far" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16"
-                                role="img" viewBox="0 0 512 512">
-                                <path fill="currentColor"
-                                    d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z">
-                                </path>
-                            </svg><a href="mailto:info@uscc.ua">info@uscc.ua</a></p>
-                    </div>
-                    <div>
-                        <p>Асоціація УЦСБ, 2020<br>СТАЛЬ. ПРАВИЛЬНИЙ&nbsp;ВИБІР</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="menu-coll">
-                <ul>
-                    <li><a href="https://uscc.ua/sortament-metaloprokaty">Сортамент металопрокату</a></li>
-                    <li><a href="https://uscc.ua/catalog/category/catalog1">Каталог готових рішень</a></li>
-                    <li><a href="https://uscc.ua/perevagi-stalevih-konstruktsiy">Переваги сталевих конструкцій</a></li>
-                    <li><a href="https://uscc.ua/metody-znizhennya-vartosti-stalevogo-karkasu">Методи зниження вартості
-                            сталевого каркасу</a></li>
-                </ul>
-                <p><br></p>
-            </div>
-            <div class="menu-coll">
-                <ul>
-                    <li><a href="https://uscc.ua/konsultatsi-vid-uchasnikiv-galuzi">Консультації від учасників
-                            галузі</a></li>
-                    <li><a href="https://uscc.ua/konsultatsii-inzhenernogo-tsentra-utssb">Консультації інженерного
-                            центра УЦСБ</a></li>
-                    <li><a href="https://uscc.ua/vognezahyst-stalevyh-konstruktsiy">Вогнезахист сталевих конструкцій</a>
-                    </li>
-                    <li><a href="https://uscc.ua/biblioteka">Бібліотека</a></li>
-                </ul>
-            </div>
-            <div class="socials">
-                <div class="footer-lang-view">
-                    <ul>
-
-                        <li id="language-menu"><a>ua</a>
-                            <ul>
-                                <li>
-                                    <a href="https://uscc.ua/en/katalog-proektuvalnikiv">en</a>
-                                </li>
-                                <li>
-                                    <a href="https://uscc.ua/ru/katalog-proektuvalnikiv">ru</a>
-                                </li>
-                            </ul>
-                        </li>
-
-
-                    </ul>
-                </div>
-                <div>
-                    <a target="_blank" class="fb" href="https://www.youtube.com/channel/UCjLA-d50zc_8I665CgALoQg">
-                        <img src="static/img/yt.svg">
-                    </a>
-                    <a target="_blank" class="fb" href="https://www.facebook.com/UkrainianSteelConstructionCenter/">
-                        <img src="static/img/fb.svg">
-                    </a>
-                </div>
-                <!--            <a target="_blank" class="fb" href="##">-->
-                <!--                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" viewBox="0 0 320 512"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>-->
-                <!--            </a>-->
-                <!--            <a target="_blank" class="yt" href="##">-->
-                <!--                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" class="svg-inline--fa fa-youtube fa-w-18" role="img" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>-->
-                <!--            </a>-->
-            </div>
+            <a
+              target="_blank"
+              class="fb"
+              href="https://www.facebook.com/UkrainianSteelConstructionCenter/"
+            >
+              <img src="static/img/fb.svg" />
+            </a>
+          </div>
+          <!--            <a target="_blank" class="fb" href="##">-->
+          <!--                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" viewBox="0 0 320 512"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>-->
+          <!--            </a>-->
+          <!--            <a target="_blank" class="yt" href="##">-->
+          <!--                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" class="svg-inline--fa fa-youtube fa-w-18" role="img" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>-->
+          <!--            </a>-->
         </div>
-        <div class="toppp custom-wic-hidden">
-            <svg id="blue_copy" style="enable-background:new 0 0 100 100;" version="1.1" viewBox="0 0 100 100"
-                xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <g id="Layer_8_copy_4_3_">
-                    <path
-                        d="M28.213,27.267v8.294c0,0.571,0.305,1.1,0.8,1.385l20.212,11.669c1.066,0.616,1.066,2.155,0,2.771L29.013,63.055   c-0.495,0.286-0.8,0.814-0.8,1.385v8.294c0,1.231,1.333,2.001,2.399,1.385l39.375-22.733c1.066-0.616,1.066-2.155,0-2.771   L30.612,25.881C29.546,25.266,28.213,26.035,28.213,27.267z">
-                    </path>
-                    <path
-                        d="M69.987,48.615L30.612,25.881c-0.193-0.112-0.395-0.164-0.597-0.19l37.972,21.923c1.066,0.616,1.066,2.155,0,2.771   L28.612,73.119c-0.1,0.058-0.205,0.092-0.308,0.126c0.308,0.914,1.401,1.398,2.308,0.874l39.375-22.733   C71.054,50.77,71.054,49.23,69.987,48.615z">
-                    </path>
-                    <path
-                        d="M28.213,27.267v8.294c0,0.571,0.305,1.1,0.8,1.385l20.212,11.669   c1.066,0.616,1.066,2.155,0,2.771L29.013,63.055c-0.495,0.286-0.8,0.814-0.8,1.385v8.294c0,1.231,1.333,2.001,2.399,1.385   l39.375-22.733c1.066-0.616,1.066-2.155,0-2.771L30.612,25.881C29.546,25.266,28.213,26.035,28.213,27.267z"
-                        style="fill:none;stroke:#000000;stroke-miterlimit:10;"></path>
-                </g>
-            </svg>
-            <!--        <p>-->
-            <!--</p>-->
-        </div>
-
+      </div>
+      <div class="toppp custom-wic-hidden">
+        <svg
+          id="blue_copy"
+          style="enable-background: new 0 0 100 100"
+          version="1.1"
+          viewBox="0 0 100 100"
+          xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <g id="Layer_8_copy_4_3_">
+            <path
+              d="M28.213,27.267v8.294c0,0.571,0.305,1.1,0.8,1.385l20.212,11.669c1.066,0.616,1.066,2.155,0,2.771L29.013,63.055   c-0.495,0.286-0.8,0.814-0.8,1.385v8.294c0,1.231,1.333,2.001,2.399,1.385l39.375-22.733c1.066-0.616,1.066-2.155,0-2.771   L30.612,25.881C29.546,25.266,28.213,26.035,28.213,27.267z"
+            ></path>
+            <path
+              d="M69.987,48.615L30.612,25.881c-0.193-0.112-0.395-0.164-0.597-0.19l37.972,21.923c1.066,0.616,1.066,2.155,0,2.771   L28.612,73.119c-0.1,0.058-0.205,0.092-0.308,0.126c0.308,0.914,1.401,1.398,2.308,0.874l39.375-22.733   C71.054,50.77,71.054,49.23,69.987,48.615z"
+            ></path>
+            <path
+              d="M28.213,27.267v8.294c0,0.571,0.305,1.1,0.8,1.385l20.212,11.669   c1.066,0.616,1.066,2.155,0,2.771L29.013,63.055c-0.495,0.286-0.8,0.814-0.8,1.385v8.294c0,1.231,1.333,2.001,2.399,1.385   l39.375-22.733c1.066-0.616,1.066-2.155,0-2.771L30.612,25.881C29.546,25.266,28.213,26.035,28.213,27.267z"
+              style="fill: none; stroke: #000000; stroke-miterlimit: 10"
+            ></path>
+          </g>
+        </svg>
+        <!--        <p>-->
+        <!--</p>-->
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
