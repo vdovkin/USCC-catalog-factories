@@ -14,3 +14,16 @@ margin: 2px 0;
 h3.bold{
     font-weight: 600;
 }
+
+ul.objects{
+    margin: 0;
+    padding: 0;
+}
+
+.objects li{
+    margin-bottom: 15px;
+}
+
+.objects li a{
+    text-decoration: none;
+}
